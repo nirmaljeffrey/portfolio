@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Kotlin on Nirmal Jeffrey</title>
-    <link>https://nirmaljeffrey.github.io/portfolio/tags/kotlin/</link>
+    <link>https://nirmaljeffrey.dev/tags/kotlin/</link>
     <description>Recent content in Kotlin on Nirmal Jeffrey</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://nirmaljeffrey.github.io/portfolio/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://nirmaljeffrey.dev/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Senior Software Engineer</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/experience/check24/</link>
+      <link>https://nirmaljeffrey.dev/experience/check24/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/experience/check24/</guid>
+      <guid>https://nirmaljeffrey.dev/experience/check24/</guid>
       <description>Check24 GmbH | Munich, Germany</description>
     </item>
     
     <item>
       <title>Software Development Engineer II</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/experience/kaleidofin/</link>
+      <link>https://nirmaljeffrey.dev/experience/kaleidofin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/experience/kaleidofin/</guid>
+      <guid>https://nirmaljeffrey.dev/experience/kaleidofin/</guid>
       <description>Kaleidofin | Chennai, India</description>
     </item>
     
     <item>
       <title>Software Engineer Trainee</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/experience/mountblue/</link>
+      <link>https://nirmaljeffrey.dev/experience/mountblue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/experience/mountblue/</guid>
+      <guid>https://nirmaljeffrey.dev/experience/mountblue/</guid>
       <description>Mountblue Technologies | Bengaluru, India</description>
     </item>
     

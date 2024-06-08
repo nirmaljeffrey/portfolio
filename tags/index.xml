@@ -2,151 +2,151 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Nirmal Jeffrey</title>
-    <link>https://nirmaljeffrey.github.io/portfolio/tags/</link>
+    <link>https://nirmaljeffrey.dev/tags/</link>
     <description>Recent content in Tags on Nirmal Jeffrey</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://nirmaljeffrey.github.io/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://nirmaljeffrey.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/tags/android/</link>
+      <link>https://nirmaljeffrey.dev/tags/android/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/tags/android/</guid>
+      <guid>https://nirmaljeffrey.dev/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Coroutines</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/tags/coroutines/</link>
+      <link>https://nirmaljeffrey.dev/tags/coroutines/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/tags/coroutines/</guid>
+      <guid>https://nirmaljeffrey.dev/tags/coroutines/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dagger</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/tags/dagger/</link>
+      <link>https://nirmaljeffrey.dev/tags/dagger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/tags/dagger/</guid>
+      <guid>https://nirmaljeffrey.dev/tags/dagger/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dagger Hilt</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/tags/dagger-hilt/</link>
+      <link>https://nirmaljeffrey.dev/tags/dagger-hilt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/tags/dagger-hilt/</guid>
+      <guid>https://nirmaljeffrey.dev/tags/dagger-hilt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Firebase Analytics</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/tags/firebase-analytics/</link>
+      <link>https://nirmaljeffrey.dev/tags/firebase-analytics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/tags/firebase-analytics/</guid>
+      <guid>https://nirmaljeffrey.dev/tags/firebase-analytics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Firebase Crashlytics</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/tags/firebase-crashlytics/</link>
+      <link>https://nirmaljeffrey.dev/tags/firebase-crashlytics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/tags/firebase-crashlytics/</guid>
+      <guid>https://nirmaljeffrey.dev/tags/firebase-crashlytics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Firebase Crashlytiscs</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/tags/firebase-crashlytiscs/</link>
+      <link>https://nirmaljeffrey.dev/tags/firebase-crashlytiscs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/tags/firebase-crashlytiscs/</guid>
+      <guid>https://nirmaljeffrey.dev/tags/firebase-crashlytiscs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gradle</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/tags/gradle/</link>
+      <link>https://nirmaljeffrey.dev/tags/gradle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/tags/gradle/</guid>
+      <guid>https://nirmaljeffrey.dev/tags/gradle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Java</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/tags/java/</link>
+      <link>https://nirmaljeffrey.dev/tags/java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/tags/java/</guid>
+      <guid>https://nirmaljeffrey.dev/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jetpack Compose</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/tags/jetpack-compose/</link>
+      <link>https://nirmaljeffrey.dev/tags/jetpack-compose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/tags/jetpack-compose/</guid>
+      <guid>https://nirmaljeffrey.dev/tags/jetpack-compose/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JUnit</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/tags/junit/</link>
+      <link>https://nirmaljeffrey.dev/tags/junit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/tags/junit/</guid>
+      <guid>https://nirmaljeffrey.dev/tags/junit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kotlin</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/tags/kotlin/</link>
+      <link>https://nirmaljeffrey.dev/tags/kotlin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/tags/kotlin/</guid>
+      <guid>https://nirmaljeffrey.dev/tags/kotlin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mockito</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/tags/mockito/</link>
+      <link>https://nirmaljeffrey.dev/tags/mockito/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/tags/mockito/</guid>
+      <guid>https://nirmaljeffrey.dev/tags/mockito/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mockk</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/tags/mockk/</link>
+      <link>https://nirmaljeffrey.dev/tags/mockk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/tags/mockk/</guid>
+      <guid>https://nirmaljeffrey.dev/tags/mockk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sentry</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/tags/sentry/</link>
+      <link>https://nirmaljeffrey.dev/tags/sentry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/tags/sentry/</guid>
+      <guid>https://nirmaljeffrey.dev/tags/sentry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unit Testing</title>
-      <link>https://nirmaljeffrey.github.io/portfolio/tags/unit-testing/</link>
+      <link>https://nirmaljeffrey.dev/tags/unit-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirmaljeffrey.github.io/portfolio/tags/unit-testing/</guid>
+      <guid>https://nirmaljeffrey.dev/tags/unit-testing/</guid>
       <description></description>
     </item>
     
