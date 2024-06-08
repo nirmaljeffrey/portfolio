@@ -2,54 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/experience/check24/</loc>
+    <loc>http://localhost:1313/portfolio/experience/check24/</loc>
   </url><url>
-    <loc>http://localhost:1313/experience/kaleidofin/</loc>
+    <loc>http://localhost:1313/portfolio/experience/kaleidofin/</loc>
   </url><url>
-    <loc>http://localhost:1313/experience/mountblue/</loc>
+    <loc>http://localhost:1313/portfolio/experience/mountblue/</loc>
   </url><url>
-    <loc>http://localhost:1313/experience/accenture/</loc>
+    <loc>http://localhost:1313/portfolio/experience/accenture/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/android/</loc>
+    <loc>http://localhost:1313/portfolio/tags/android/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/portfolio/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/coroutines/</loc>
+    <loc>http://localhost:1313/portfolio/tags/coroutines/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/dagger/</loc>
+    <loc>http://localhost:1313/portfolio/tags/dagger/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/dagger-hilt/</loc>
+    <loc>http://localhost:1313/portfolio/tags/dagger-hilt/</loc>
   </url><url>
-    <loc>http://localhost:1313/experience/</loc>
+    <loc>http://localhost:1313/portfolio/experience/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/firebase-analytics/</loc>
+    <loc>http://localhost:1313/portfolio/tags/firebase-analytics/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/firebase-crashlytics/</loc>
+    <loc>http://localhost:1313/portfolio/tags/firebase-crashlytics/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/firebase-crashlytiscs/</loc>
+    <loc>http://localhost:1313/portfolio/tags/firebase-crashlytiscs/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/gradle/</loc>
+    <loc>http://localhost:1313/portfolio/tags/gradle/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/java/</loc>
+    <loc>http://localhost:1313/portfolio/tags/java/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/jetpack-compose/</loc>
+    <loc>http://localhost:1313/portfolio/tags/jetpack-compose/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/junit/</loc>
+    <loc>http://localhost:1313/portfolio/tags/junit/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/kotlin/</loc>
+    <loc>http://localhost:1313/portfolio/tags/kotlin/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/mockito/</loc>
+    <loc>http://localhost:1313/portfolio/tags/mockito/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/mockk/</loc>
+    <loc>http://localhost:1313/portfolio/tags/mockk/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/portfolio/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>http://localhost:1313/portfolio/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/sentry/</loc>
+    <loc>http://localhost:1313/portfolio/tags/sentry/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/portfolio/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/unit-testing/</loc>
+    <loc>http://localhost:1313/portfolio/tags/unit-testing/</loc>
   </url>
 </urlset>
