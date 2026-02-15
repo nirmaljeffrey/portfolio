@@ -5,7 +5,17 @@
     <link>https://nirmaljeffrey.dev/tags/android/</link>
     <description>Recent content in Android on Nirmal Jeffrey</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://nirmaljeffrey.dev/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bluetooth Controlled Arduino Car</title>
+      <link>https://nirmaljeffrey.dev/projects/bluetooth-controlled-arduino-car/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirmaljeffrey.dev/projects/bluetooth-controlled-arduino-car/</guid>
+      <description>Android phone controlled bot using Arduino Uno, DC motors, and Bluetooth.</description>
+    </item>
+    
     <item>
       <title>Senior Software Engineer</title>
       <link>https://nirmaljeffrey.dev/experience/check24/</link>
@@ -40,6 +50,42 @@
       
       <guid>https://nirmaljeffrey.dev/experience/accenture/</guid>
       <description>Accenture | Chennai, India</description>
+    </item>
+    
+    <item>
+      <title>FlickVibes</title>
+      <link>https://nirmaljeffrey.dev/projects/flickvibes/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirmaljeffrey.dev/projects/flickvibes/</guid>
+      <description>Mood-based Android movie recommendation app (removed from Google Play).</description>
+    </item>
+    
+    <item>
+      <title>Android Permissions</title>
+      <link>https://nirmaljeffrey.dev/projects/android-permissions/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirmaljeffrey.dev/projects/android-permissions/</guid>
+      <description>Android runtime permissions library designed to simplify permission handling.</description>
+    </item>
+    
+    <item>
+      <title>DroidBoot</title>
+      <link>https://nirmaljeffrey.dev/projects/droidboot/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirmaljeffrey.dev/projects/droidboot/</guid>
+      <description>Android Jetpack-oriented foundation for production-grade app architecture.</description>
+    </item>
+    
+    <item>
+      <title>base-android</title>
+      <link>https://nirmaljeffrey.dev/projects/base-android/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirmaljeffrey.dev/projects/base-android/</guid>
+      <description>Reusable Android app base with common utilities, structure, and setup patterns.</description>
     </item>
     
   </channel>
