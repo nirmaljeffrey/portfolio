@@ -1,0 +1,69 @@
+{{- $imagesParam := .Get "images" | default "" -}}
+{{- $items := split $imagesParam "," -}}
+{{- $slides := slice -}}
+{{- range $items -}}
+  {{- $entry := trim . " " -}}
+  {{- if ne $entry "" -}}
+    {{- $slides = $slides | append $entry -}}
+  {{- end -}}
+{{- end -}}
+{{- $count := len $slides -}}
+
+{{- if gt $count 0 -}}
+  {{- if not (.Page.Scratch.Get "project-gallery-style") -}}
+<style>
+.process-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin: 1rem 0 2rem;
+}
+
+.process-gallery.process-gallery-single {
+  grid-template-columns: minmax(0, 680px);
+}
+
+.process-card {
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--entry);
+  overflow: hidden;
+}
+
+.process-card-link {
+  display: block;
+}
+
+.process-card img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  margin: 0;
+  border-radius: 0;
+  transition: transform 0.2s ease;
+}
+
+.process-card-link:hover img {
+  transform: scale(1.03);
+}
+</style>
+    {{- .Page.Scratch.Set "project-gallery-style" true -}}
+  {{- end -}}
+
+<div class="process-gallery{{ if eq $count 1 }} process-gallery-single{{ end }}">
+  {{- range $idx, $slide := $slides -}}
+    {{- $parts := split $slide "|" -}}
+    {{- $src := trim (index $parts 0) " " -}}
+    {{- $caption := $.Page.Title -}}
+    {{- if ge (len $parts) 2 -}}
+      {{- $caption = trim (index $parts 1) " " -}}
+    {{- end -}}
+    <figure class="process-card">
+      <a class="process-card-link" href="{{ $src | relURL }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ $src | relURL }}" alt="{{ $caption }}" loading="lazy" />
+      </a>
+    </figure>
+  {{- end -}}
+</div>
+{{- end -}}

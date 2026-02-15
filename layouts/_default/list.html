@@ -37,9 +37,14 @@
 {{- end }}
 
 {{- $pages := union .RegularPages .Sections }}
+{{- $isProjectsLanding := and (eq .Kind "section") (eq .Section "projects") }}
+{{- $showEntries := not $isProjectsLanding }}
 
 {{- if .IsHome }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- end }}
+{{- if not $showEntries }}
+{{- $pages = slice }}
 {{- end }}
 
 {{- $paginator := .Paginate $pages }}
@@ -49,20 +54,35 @@
 {{- end }}
 
 {{- $term := .Data.Term }}
+{{- $termLower := lower (printf "%v" .Data.Term) }}
+{{- $isProjectTypeTagPage := and (eq .Kind "term") (eq .Data.Plural "tags") (or (eq $termLower "hardware") (eq $termLower "software")) }}
+{{- $isVisualSection := or (and (eq .Kind "section") (or (eq .Section "projects") (eq .Section "art"))) $isProjectTypeTagPage }}
+{{- $visualSection := .Section }}
+{{- if $isProjectTypeTagPage }}{{ $visualSection = "projects" }}{{ end }}
+{{- $isArtSection := and $isVisualSection (eq $visualSection "art") }}
+{{- if and $showEntries $isVisualSection }}
+  {{- $galleryClass := printf "section-gallery-grid section-gallery-grid-%s" $visualSection -}}
+  <div class="{{ $galleryClass }}">
+{{- end }}
+{{- if $showEntries }}
 {{- range $index, $page := $paginator.Pages }}
 
 {{- $class := "post-entry" }}
-
-{{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
-{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
-{{- $class = "first-entry" }}
-{{- else if $term }}
-{{- $class = "post-entry tag-entry" }}
+{{- if $isVisualSection }}
+{{- $class = "post-entry gallery-entry" }}
+{{- else }}
+  {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
+  {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
+  {{- $class = "first-entry" }}
+  {{- else if $term }}
+  {{- $class = "post-entry tag-entry" }}
+  {{- end }}
 {{- end }}
 
-<article class="{{ $class }}">
+<article class="{{ $class }}{{ if $isArtSection }} art-image-entry{{ end }}">
   {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
   {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+  {{- if not $isArtSection }}
   <header class="entry-header">
     <h2>
       {{- .Title }}
@@ -80,11 +100,14 @@
     {{- partial "post_meta.html" . -}}
   </footer>
   {{- end }}
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  {{- end }}
+  <a class="entry-link" aria-label="{{ if $isArtSection }}open artwork{{ else }}post link to {{ .Title | plainify }}{{ end }}" href="{{ .Permalink }}"></a>
 </article>
 {{- end }}
+{{- if $isVisualSection }}</div>{{- end }}
+{{- end }}
 
-{{- if gt $paginator.TotalPages 1 }}
+{{- if and $showEntries (gt $paginator.TotalPages 1) }}
 <footer class="page-footer">
   <nav class="pagination">
     {{- if $paginator.HasPrev }}
