@@ -1,7 +1,7 @@
 ---
 title: "Senior Software Engineer"
 description: "Check24 GmbH | Munich, Germany"
-dateString: June 2022 - Present
+dateString: June 2022 - Aug 2024
 draft: false
 tags: ["Android", "Kotlin", "Dagger","Jetpack Compose", "Coroutines" , "Unit Testing", "JUnit", "Mockk", "Sentry", "Gradle" ]
 showToc: false
