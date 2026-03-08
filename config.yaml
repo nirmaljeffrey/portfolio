@@ -47,7 +47,7 @@ params:
   profileMode:
     enabled: true
     title: "Nirmal Jeffrey"
-    subtitle: "I build software by day\nI chase strange ideas.\nSometimes they become useful too.
+    subtitle: "I build software by day\nI chase strange ideas.\nSometimes they become useful too."
     imageUrl: "home/profile-picture.jpeg"
     imageWidth: 220
     imageHeight: 220
