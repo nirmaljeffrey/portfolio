@@ -47,7 +47,7 @@ params:
   profileMode:
     enabled: true
     title: "Nirmal Jeffrey"
-    subtitle: "**Overthinker. Chronic maker.** I turn restless ideas into useful tools, playful prototypes, strange experiments, and art."
+    subtitle: "I build software by day\nI chase strange ideas.\nSometimes they become useful too.
     imageUrl: "home/profile-picture.jpeg"
     imageWidth: 220
     imageHeight: 220
