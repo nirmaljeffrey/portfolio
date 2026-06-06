@@ -27,6 +27,10 @@ menu:
       weight: 50
 
 params:
+  author:
+    name: "Nirmal Jeffrey"
+    email: "jeffattry@gmail.com"
+
   assets:
     favicon: "favicon-nj.ico"
     favicon16x16: "favicon-nj-16x16.png"

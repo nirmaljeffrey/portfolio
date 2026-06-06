@@ -6,7 +6,8 @@ dateString: "February 2015 | TCE Madurai"
 draft: false
 tags: ["Maker", "Mechanical", "DIY", "Hardware"]
 showToc: false
-weight: 203
+hideFromHardwareList: true
+weight: 210
 cover:
   image: "projects/acc.jpg"
   alt: "DIY air cooler"

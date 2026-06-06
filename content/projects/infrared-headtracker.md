@@ -6,7 +6,7 @@ dateString: "January-February 2017 | Trichy"
 draft: false
 tags: ["Maker", "Sensors", "Human Computer Interaction", "Hardware"]
 showToc: false
-weight: 213
+weight: 202
 cover:
   image: "projects/ifht.jpg"
   alt: "Infrared head tracker"

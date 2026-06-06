@@ -6,7 +6,8 @@ dateString: "November 2014 | NIT Trichy"
 draft: false
 tags: ["Maker", "Aerodynamics", "DIY", "Hardware"]
 showToc: false
-weight: 201
+hideFromHardwareList: true
+weight: 208
 cover:
   image: "projects/glider.jpg"
   alt: "Glider prototype"

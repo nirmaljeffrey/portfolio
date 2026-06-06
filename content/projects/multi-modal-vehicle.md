@@ -6,6 +6,7 @@ dateString: "January-May 2018 | TCE Madurai | Failed Prototype"
 draft: false
 tags: ["Maker", "Robotics", "Rescue Systems", "Hardware"]
 showToc: false
+hideFromHardwareList: true
 weight: 214
 cover:
   image: "projects/mmv.jpg"

@@ -6,7 +6,7 @@ dateString: "February 2017 | Trichy"
 draft: false
 tags: ["Maker", "Sports", "Training Tools", "Hardware"]
 showToc: false
-weight: 210
+weight: 204
 cover:
   image: "projects/ist.jpg"
   alt: "Individual volleyball spike trainer"

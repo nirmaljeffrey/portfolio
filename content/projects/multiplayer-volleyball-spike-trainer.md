@@ -6,7 +6,7 @@ dateString: "January-May 2018 | TCE Madurai"
 draft: false
 tags: ["Maker", "Sports", "Training Tools", "Hardware"]
 showToc: false
-weight: 211
+weight: 203
 cover:
   image: "projects/tst.jpg"
   alt: "Multiplayer volleyball spike trainer"

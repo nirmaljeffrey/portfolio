@@ -6,7 +6,7 @@ dateString: "June-August 2016 | Trichy"
 draft: false
 tags: ["Maker", "Simulation", "Training", "Hardware"]
 showToc: false
-weight: 212
+weight: 201
 cover:
   image: "projects/cs.jpg"
   alt: "Car simulator"

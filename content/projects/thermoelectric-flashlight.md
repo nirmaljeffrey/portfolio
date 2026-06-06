@@ -6,7 +6,7 @@ dateString: "January-March 2016 | TCE Madurai"
 draft: false
 tags: ["Maker", "Electronics", "Energy", "Hardware"]
 showToc: false
-weight: 209
+weight: 205
 cover:
   image: "projects/tf.jpg"
   alt: "Thermoelectric flashlight"

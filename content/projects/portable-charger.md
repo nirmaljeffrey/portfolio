@@ -6,7 +6,8 @@ dateString: "August 2014 | TCE Madurai"
 draft: false
 tags: ["Maker", "Electronics", "Utility Build", "Hardware"]
 showToc: false
-weight: 202
+hideFromHardwareList: true
+weight: 209
 cover:
   image: "projects/pc.jpg"
   alt: "Portable charger"

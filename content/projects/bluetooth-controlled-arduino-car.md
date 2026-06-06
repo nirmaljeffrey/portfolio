@@ -6,7 +6,8 @@ dateString: "August-December 2014 | TCE Madurai"
 draft: false
 tags: ["Maker", "Arduino", "Android", "Robotics", "Hardware"]
 showToc: false
-weight: 204
+hideFromHardwareList: true
+weight: 211
 cover:
   image: "projects/bcc.jpg"
   alt: "Bluetooth controlled Arduino car"

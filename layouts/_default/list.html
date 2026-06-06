@@ -39,6 +39,11 @@
 {{- $pages := union .RegularPages .Sections }}
 {{- $isProjectsLanding := and (eq .Kind "section") (eq .Section "projects") }}
 {{- $showEntries := not $isProjectsLanding }}
+{{- $term := .Data.Term }}
+{{- $termLower := lower (printf "%v" .Data.Term) }}
+{{- $isHardwareTagPage := and (eq .Kind "term") (eq .Data.Plural "tags") (eq $termLower "hardware") }}
+{{- $isProjectHubTagPage := and (eq .Kind "term") (eq .Data.Plural "tags") (or (eq $termLower "hardware") (eq $termLower "software") (eq $termLower "community") (eq $termLower "3d printing")) }}
+{{- $isInlineProjectHubTagPage := and (eq .Kind "term") (eq .Data.Plural "tags") (or (eq $termLower "community") (eq $termLower "3d printing")) }}
 
 {{- if .IsHome }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
@@ -46,20 +51,45 @@
 {{- if not $showEntries }}
 {{- $pages = slice }}
 {{- end }}
+{{- if $isProjectHubTagPage }}
+{{- $pages = where $pages "Type" "projects" }}
+{{- end }}
+{{- if $isHardwareTagPage }}
+{{- $pages = where $pages "Params.hideFromHardwareList" "ne" true }}
+{{- end }}
 
-{{- $paginator := .Paginate $pages }}
+{{- $pageSize := 10 }}
+{{- if $isHardwareTagPage }}{{ $pageSize = 7 }}{{ end }}
+{{- $paginator := .Paginate $pages $pageSize }}
 
 {{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
 {{- partial "home_info.html" . }}
 {{- end }}
 
-{{- $term := .Data.Term }}
-{{- $termLower := lower (printf "%v" .Data.Term) }}
-{{- $isProjectTypeTagPage := and (eq .Kind "term") (eq .Data.Plural "tags") (or (eq $termLower "hardware") (eq $termLower "software")) }}
-{{- $isVisualSection := or (and (eq .Kind "section") (or (eq .Section "projects") (eq .Section "art"))) $isProjectTypeTagPage }}
+{{- $isVisualSection := or (and (eq .Kind "section") (or (eq .Section "projects") (eq .Section "art"))) $isProjectHubTagPage }}
 {{- $visualSection := .Section }}
-{{- if $isProjectTypeTagPage }}{{ $visualSection = "projects" }}{{ end }}
+{{- if $isProjectHubTagPage }}{{ $visualSection = "projects" }}{{ end }}
 {{- $isArtSection := and $isVisualSection (eq $visualSection "art") }}
+{{- if and $showEntries $isInlineProjectHubTagPage }}
+{{- range first 1 $pages }}
+<section class="inline-project-section">
+  {{- if ne $.Title .Title }}
+  <h2>{{ .Title }}</h2>
+  {{- end }}
+  {{- if .Description }}
+  <p class="inline-project-description">{{ .Description }}</p>
+  {{- end }}
+  {{- if not (.Param "hideMeta") }}
+  <div class="inline-project-meta">
+    {{- partial "post_meta.html" . -}}
+  </div>
+  {{- end }}
+  <div class="post-content inline-project-content">
+    {{- .Content -}}
+  </div>
+</section>
+{{- end }}
+{{- else }}
 {{- if and $showEntries $isVisualSection }}
   {{- $galleryClass := printf "section-gallery-grid section-gallery-grid-%s" $visualSection -}}
   <div class="{{ $galleryClass }}">
@@ -106,8 +136,9 @@
 {{- end }}
 {{- if $isVisualSection }}</div>{{- end }}
 {{- end }}
+{{- end }}
 
-{{- if and $showEntries (gt $paginator.TotalPages 1) }}
+{{- if and (not $isInlineProjectHubTagPage) $showEntries (gt $paginator.TotalPages 1) }}
 <footer class="page-footer">
   <nav class="pagination">
     {{- if $paginator.HasPrev }}

@@ -6,7 +6,7 @@ dateString: "February 2018 | TCE Madurai"
 draft: false
 tags: ["Maker", "Papercraft", "Design", "Hardware"]
 showToc: false
-weight: 208
+weight: 213
 cover:
   image: "projects/origami.jpg"
   alt: "Life size papercraft Ford GT"

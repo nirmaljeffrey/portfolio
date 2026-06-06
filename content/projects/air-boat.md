@@ -6,7 +6,8 @@ dateString: "December 2017 | TCE Madurai"
 draft: false
 tags: ["Maker", "Robotics", "DIY", "Hardware"]
 showToc: false
-weight: 207
+hideFromHardwareList: true
+weight: 212
 cover:
   image: "projects/ab.jpg"
   alt: "Air boat"
