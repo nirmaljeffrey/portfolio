@@ -10,7 +10,7 @@
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}
 {{- end -}}
-{{- $author := site.Params.author | default dict -}}
+{{- $author := site.Params.rssAuthor | default dict -}}
 {{- $authorEmail := $author.email -}}
 {{- $authorName := $author.name -}}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}

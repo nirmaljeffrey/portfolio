@@ -27,7 +27,7 @@ menu:
       weight: 50
 
 params:
-  author:
+  rssAuthor:
     name: "Nirmal Jeffrey"
     email: "jeffattry@gmail.com"
 
