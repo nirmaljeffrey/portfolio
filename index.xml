@@ -6,12 +6,14 @@
     <description>Recent content on Nirmal Jeffrey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
+    <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Art For My Home</title>
       <link>https://nirmaljeffrey.dev/art/art-for-my-home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/art/art-for-my-home/</guid>
       <description> </description>
     </item>
@@ -20,7 +22,7 @@
       <title>Art For Shareeena&#39;s Munich Farewell</title>
       <link>https://nirmaljeffrey.dev/art/art-for-shareeenas-munich-farewell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/art/art-for-shareeenas-munich-farewell/</guid>
       <description> </description>
     </item>
@@ -29,7 +31,7 @@
       <title>Coffee Time Art</title>
       <link>https://nirmaljeffrey.dev/art/coffee-time-art/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/art/coffee-time-art/</guid>
       <description> </description>
     </item>
@@ -38,7 +40,7 @@
       <title>Doodle</title>
       <link>https://nirmaljeffrey.dev/art/doodle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/art/doodle/</guid>
       <description> </description>
     </item>
@@ -47,7 +49,7 @@
       <title>Miniature Art For Daniel&#39;s Bday</title>
       <link>https://nirmaljeffrey.dev/art/miniature-art-for-daniels-bday/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/art/miniature-art-for-daniels-bday/</guid>
       <description> </description>
     </item>
@@ -56,115 +58,16 @@
       <title>Coffee Machine Art</title>
       <link>https://nirmaljeffrey.dev/art/coffee-machine-art/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/art/coffee-machine-art/</guid>
       <description>My coffee machine deserves an art by me!</description>
-    </item>
-    
-    <item>
-      <title>Glider</title>
-      <link>https://nirmaljeffrey.dev/projects/glider/</link>
-      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/projects/glider/</guid>
-      <description>Foam-board glider built to learn rudder, aileron, and flap behavior.</description>
-    </item>
-    
-    <item>
-      <title>Portable Charger</title>
-      <link>https://nirmaljeffrey.dev/projects/portable-charger/</link>
-      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/projects/portable-charger/</guid>
-      <description>A practical DIY charger built from simple components for daily carry.</description>
-    </item>
-    
-    <item>
-      <title>Air Cooler</title>
-      <link>https://nirmaljeffrey.dev/projects/air-cooler/</link>
-      <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/projects/air-cooler/</guid>
-      <description>A hostel-friendly cooling build made from household materials.</description>
-    </item>
-    
-    <item>
-      <title>Bluetooth Controlled Arduino Car</title>
-      <link>https://nirmaljeffrey.dev/projects/bluetooth-controlled-arduino-car/</link>
-      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/projects/bluetooth-controlled-arduino-car/</guid>
-      <description>Android phone controlled bot using Arduino Uno, DC motors, and Bluetooth.</description>
-    </item>
-    
-    <item>
-      <title>Line Marker</title>
-      <link>https://nirmaljeffrey.dev/projects/line-marker/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/projects/line-marker/</guid>
-      <description>Low-cost sports line marker used in college grounds.</description>
-    </item>
-    
-    <item>
-      <title>Manual Scoreboard</title>
-      <link>https://nirmaljeffrey.dev/projects/manual-scoreboard/</link>
-      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/projects/manual-scoreboard/</guid>
-      <description>A seven-segment style manual scoreboard built with wood and hinges.</description>
-    </item>
-    
-    <item>
-      <title>Air Boat</title>
-      <link>https://nirmaljeffrey.dev/projects/air-boat/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/projects/air-boat/</guid>
-      <description>A low-cost wired RC air boat built from foam and coreless motors.</description>
-    </item>
-    
-    <item>
-      <title>Life Size Papercraft Ford GT</title>
-      <link>https://nirmaljeffrey.dev/projects/life-size-papercraft-ford-gt/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/projects/life-size-papercraft-ford-gt/</guid>
-      <description>An original life-size DIY papercraft model inspired by the 2016 Ford GT.</description>
-    </item>
-    
-    <item>
-      <title>Thermoelectric Flashlight</title>
-      <link>https://nirmaljeffrey.dev/projects/thermoelectric-flashlight/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/projects/thermoelectric-flashlight/</guid>
-      <description>A flashlight concept powered by temperature difference using peltier effect.</description>
-    </item>
-    
-    <item>
-      <title>Individual Volleyball Spike Trainer</title>
-      <link>https://nirmaljeffrey.dev/projects/individual-volleyball-spike-trainer/</link>
-      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/projects/individual-volleyball-spike-trainer/</guid>
-      <description>Solo spike training rig to practice volleyball attacking technique.</description>
-    </item>
-    
-    <item>
-      <title>Multiplayer Volleyball Spike Trainer</title>
-      <link>https://nirmaljeffrey.dev/projects/multiplayer-volleyball-spike-trainer/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/projects/multiplayer-volleyball-spike-trainer/</guid>
-      <description>Volleyball training device to improve attack, block, and defense drills.</description>
     </item>
     
     <item>
       <title>Car Simulator</title>
       <link>https://nirmaljeffrey.dev/projects/car-simulator/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/car-simulator/</guid>
       <description>A low-cost driving simulator concept for beginner driver training.</description>
     </item>
@@ -173,16 +76,115 @@
       <title>Infrared HeadTracker</title>
       <link>https://nirmaljeffrey.dev/projects/infrared-headtracker/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/infrared-headtracker/</guid>
       <description>IR LED cap-based head tracking for immersive virtual environment interaction.</description>
+    </item>
+    
+    <item>
+      <title>Multiplayer Volleyball Spike Trainer</title>
+      <link>https://nirmaljeffrey.dev/projects/multiplayer-volleyball-spike-trainer/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/multiplayer-volleyball-spike-trainer/</guid>
+      <description>Volleyball training device to improve attack, block, and defense drills.</description>
+    </item>
+    
+    <item>
+      <title>Individual Volleyball Spike Trainer</title>
+      <link>https://nirmaljeffrey.dev/projects/individual-volleyball-spike-trainer/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/individual-volleyball-spike-trainer/</guid>
+      <description>Solo spike training rig to practice volleyball attacking technique.</description>
+    </item>
+    
+    <item>
+      <title>Thermoelectric Flashlight</title>
+      <link>https://nirmaljeffrey.dev/projects/thermoelectric-flashlight/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/thermoelectric-flashlight/</guid>
+      <description>A flashlight concept powered by temperature difference using peltier effect.</description>
+    </item>
+    
+    <item>
+      <title>Manual Scoreboard</title>
+      <link>https://nirmaljeffrey.dev/projects/manual-scoreboard/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/manual-scoreboard/</guid>
+      <description>A seven-segment style manual scoreboard built with wood and hinges.</description>
+    </item>
+    
+    <item>
+      <title>Line Marker</title>
+      <link>https://nirmaljeffrey.dev/projects/line-marker/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/line-marker/</guid>
+      <description>Low-cost sports line marker used in college grounds.</description>
+    </item>
+    
+    <item>
+      <title>Glider</title>
+      <link>https://nirmaljeffrey.dev/projects/glider/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/glider/</guid>
+      <description>Foam-board glider built to learn rudder, aileron, and flap behavior.</description>
+    </item>
+    
+    <item>
+      <title>Portable Charger</title>
+      <link>https://nirmaljeffrey.dev/projects/portable-charger/</link>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/portable-charger/</guid>
+      <description>A practical DIY charger built from simple components for daily carry.</description>
+    </item>
+    
+    <item>
+      <title>Air Cooler</title>
+      <link>https://nirmaljeffrey.dev/projects/air-cooler/</link>
+      <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/air-cooler/</guid>
+      <description>A hostel-friendly cooling build made from household materials.</description>
+    </item>
+    
+    <item>
+      <title>Bluetooth Controlled Arduino Car</title>
+      <link>https://nirmaljeffrey.dev/projects/bluetooth-controlled-arduino-car/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/bluetooth-controlled-arduino-car/</guid>
+      <description>Android phone controlled bot using Arduino Uno, DC motors, and Bluetooth.</description>
+    </item>
+    
+    <item>
+      <title>Air Boat</title>
+      <link>https://nirmaljeffrey.dev/projects/air-boat/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/air-boat/</guid>
+      <description>A low-cost wired RC air boat built from foam and coreless motors.</description>
+    </item>
+    
+    <item>
+      <title>Life Size Papercraft Ford GT</title>
+      <link>https://nirmaljeffrey.dev/projects/life-size-papercraft-ford-gt/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/life-size-papercraft-ford-gt/</guid>
+      <description>An original life-size DIY papercraft model inspired by the 2016 Ford GT.</description>
     </item>
     
     <item>
       <title>Multi-Modal Vehicle</title>
       <link>https://nirmaljeffrey.dev/projects/multi-modal-vehicle/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/multi-modal-vehicle/</guid>
       <description>An ambitious rescue concept that failed as a prototype across air, land, and water.</description>
     </item>
@@ -191,16 +193,25 @@
       <title>Software Engineer</title>
       <link>https://nirmaljeffrey.dev/experience/autoscout24/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/autoscout24/</guid>
       <description>AutoScout24 | Munich, Germany</description>
+    </item>
+    
+    <item>
+      <title>Pose Studio Waitlist</title>
+      <link>https://nirmaljeffrey.dev/projects/pose-studio-waitlist/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/pose-studio-waitlist/</guid>
+      <description>Waiting-list site for the iOS and Android Pose Studio app, an AI camera that gives real-time pose guidance.</description>
     </item>
     
     <item>
       <title>Senior Software Engineer</title>
       <link>https://nirmaljeffrey.dev/experience/check24/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/check24/</guid>
       <description>Check24 GmbH | Munich, Germany</description>
     </item>
@@ -209,7 +220,7 @@
       <title>Software Development Engineer II</title>
       <link>https://nirmaljeffrey.dev/experience/kaleidofin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/kaleidofin/</guid>
       <description>Kaleidofin | Chennai, India</description>
     </item>
@@ -218,7 +229,7 @@
       <title>Software Engineer Trainee</title>
       <link>https://nirmaljeffrey.dev/experience/mountblue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/mountblue/</guid>
       <description>Mountblue Technologies | Bengaluru, India</description>
     </item>
@@ -227,7 +238,7 @@
       <title>Founder (Attempt)</title>
       <link>https://nirmaljeffrey.dev/experience/idea-foundry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/idea-foundry/</guid>
       <description>Idea Foundry (Fab Lab) | Trichy, India</description>
     </item>
@@ -236,7 +247,7 @@
       <title>Application Development Associate</title>
       <link>https://nirmaljeffrey.dev/experience/accenture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/accenture/</guid>
       <description>Accenture | Chennai, India</description>
     </item>
@@ -245,7 +256,7 @@
       <title>FlickVibes</title>
       <link>https://nirmaljeffrey.dev/projects/flickvibes/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/flickvibes/</guid>
       <description>Mood-based Android movie recommendation app (removed from Google Play).</description>
     </item>
@@ -254,7 +265,7 @@
       <title>Android Permissions</title>
       <link>https://nirmaljeffrey.dev/projects/android-permissions/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/android-permissions/</guid>
       <description>Android runtime permissions library designed to simplify permission handling.</description>
     </item>
@@ -263,7 +274,7 @@
       <title>DroidBoot</title>
       <link>https://nirmaljeffrey.dev/projects/droidboot/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/droidboot/</guid>
       <description>Android Jetpack-oriented foundation for production-grade app architecture.</description>
     </item>
@@ -272,9 +283,27 @@
       <title>base-android</title>
       <link>https://nirmaljeffrey.dev/projects/base-android/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/base-android/</guid>
       <description>Reusable Android app base with common utilities, structure, and setup patterns.</description>
+    </item>
+    
+    <item>
+      <title>GDG Android Munich Meetup in April 2026</title>
+      <link>https://nirmaljeffrey.dev/projects/gdg-android-munich-meetup-april-2026/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/gdg-android-munich-meetup-april-2026/</guid>
+      <description>An Android community meetup where I played a key role in helping AutoScout24 host the local Android community.</description>
+    </item>
+    
+    <item>
+      <title>3D Printing</title>
+      <link>https://nirmaljeffrey.dev/projects/3d-printing-workbench/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/3d-printing-workbench/</guid>
+      <description>3D prints I make when I&amp;#39;m bored, for friends or for myself, using my Bambu Lab P1S.</description>
     </item>
     
     

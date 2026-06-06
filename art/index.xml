@@ -5,12 +5,14 @@
     <link>https://nirmaljeffrey.dev/art/</link>
     <description>Recent content in Art on Nirmal Jeffrey</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://nirmaljeffrey.dev/art/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
+    <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster><atom:link href="https://nirmaljeffrey.dev/art/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Art For My Home</title>
       <link>https://nirmaljeffrey.dev/art/art-for-my-home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/art/art-for-my-home/</guid>
       <description> </description>
     </item>
@@ -19,7 +21,7 @@
       <title>Art For Shareeena&#39;s Munich Farewell</title>
       <link>https://nirmaljeffrey.dev/art/art-for-shareeenas-munich-farewell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/art/art-for-shareeenas-munich-farewell/</guid>
       <description> </description>
     </item>
@@ -28,7 +30,7 @@
       <title>Coffee Time Art</title>
       <link>https://nirmaljeffrey.dev/art/coffee-time-art/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/art/coffee-time-art/</guid>
       <description> </description>
     </item>
@@ -37,7 +39,7 @@
       <title>Doodle</title>
       <link>https://nirmaljeffrey.dev/art/doodle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/art/doodle/</guid>
       <description> </description>
     </item>
@@ -46,7 +48,7 @@
       <title>Miniature Art For Daniel&#39;s Bday</title>
       <link>https://nirmaljeffrey.dev/art/miniature-art-for-daniels-bday/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/art/miniature-art-for-daniels-bday/</guid>
       <description> </description>
     </item>
@@ -55,7 +57,7 @@
       <title>Coffee Machine Art</title>
       <link>https://nirmaljeffrey.dev/art/coffee-machine-art/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/art/coffee-machine-art/</guid>
       <description>My coffee machine deserves an art by me!</description>
     </item>

@@ -6,12 +6,14 @@
     <description>Recent content in Kotlin on Nirmal Jeffrey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
+    <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
+    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Senior Software Engineer</title>
       <link>https://nirmaljeffrey.dev/experience/check24/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/check24/</guid>
       <description>Check24 GmbH | Munich, Germany</description>
     </item>
@@ -20,7 +22,7 @@
       <title>Software Development Engineer II</title>
       <link>https://nirmaljeffrey.dev/experience/kaleidofin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/kaleidofin/</guid>
       <description>Kaleidofin | Chennai, India</description>
     </item>
@@ -29,7 +31,7 @@
       <title>Software Engineer Trainee</title>
       <link>https://nirmaljeffrey.dev/experience/mountblue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/mountblue/</guid>
       <description>Mountblue Technologies | Bengaluru, India</description>
     </item>
@@ -38,7 +40,7 @@
       <title>Android Permissions</title>
       <link>https://nirmaljeffrey.dev/projects/android-permissions/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/android-permissions/</guid>
       <description>Android runtime permissions library designed to simplify permission handling.</description>
     </item>
@@ -47,9 +49,18 @@
       <title>base-android</title>
       <link>https://nirmaljeffrey.dev/projects/base-android/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/base-android/</guid>
       <description>Reusable Android app base with common utilities, structure, and setup patterns.</description>
+    </item>
+    
+    <item>
+      <title>GDG Android Munich Meetup in April 2026</title>
+      <link>https://nirmaljeffrey.dev/projects/gdg-android-munich-meetup-april-2026/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/gdg-android-munich-meetup-april-2026/</guid>
+      <description>An Android community meetup where I played a key role in helping AutoScout24 host the local Android community.</description>
     </item>
     
   </channel>

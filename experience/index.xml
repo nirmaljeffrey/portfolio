@@ -5,12 +5,14 @@
     <link>https://nirmaljeffrey.dev/experience/</link>
     <description>Recent content in Experiences on Nirmal Jeffrey</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://nirmaljeffrey.dev/experience/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
+    <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster><atom:link href="https://nirmaljeffrey.dev/experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Software Engineer</title>
       <link>https://nirmaljeffrey.dev/experience/autoscout24/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/autoscout24/</guid>
       <description>AutoScout24 | Munich, Germany</description>
     </item>
@@ -19,7 +21,7 @@
       <title>Senior Software Engineer</title>
       <link>https://nirmaljeffrey.dev/experience/check24/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/check24/</guid>
       <description>Check24 GmbH | Munich, Germany</description>
     </item>
@@ -28,7 +30,7 @@
       <title>Software Development Engineer II</title>
       <link>https://nirmaljeffrey.dev/experience/kaleidofin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/kaleidofin/</guid>
       <description>Kaleidofin | Chennai, India</description>
     </item>
@@ -37,7 +39,7 @@
       <title>Software Engineer Trainee</title>
       <link>https://nirmaljeffrey.dev/experience/mountblue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/mountblue/</guid>
       <description>Mountblue Technologies | Bengaluru, India</description>
     </item>
@@ -46,7 +48,7 @@
       <title>Founder (Attempt)</title>
       <link>https://nirmaljeffrey.dev/experience/idea-foundry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/idea-foundry/</guid>
       <description>Idea Foundry (Fab Lab) | Trichy, India</description>
     </item>
@@ -55,7 +57,7 @@
       <title>Application Development Associate</title>
       <link>https://nirmaljeffrey.dev/experience/accenture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/accenture/</guid>
       <description>Accenture | Chennai, India</description>
     </item>

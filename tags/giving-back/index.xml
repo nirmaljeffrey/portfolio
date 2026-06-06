@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Giving Back on Nirmal Jeffrey</title>
+    <link>https://nirmaljeffrey.dev/tags/giving-back/</link>
+    <description>Recent content in Giving Back on Nirmal Jeffrey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
+    <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
+    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/giving-back/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GDG Android Munich Meetup in April 2026</title>
+      <link>https://nirmaljeffrey.dev/projects/gdg-android-munich-meetup-april-2026/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/gdg-android-munich-meetup-april-2026/</guid>
+      <description>An Android community meetup where I played a key role in helping AutoScout24 host the local Android community.</description>
+    </item>
+    
+  </channel>
+</rss>

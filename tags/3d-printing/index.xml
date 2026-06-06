@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>3D Printing on Nirmal Jeffrey</title>
+    <link>https://nirmaljeffrey.dev/tags/3d-printing/</link>
+    <description>Recent content in 3D Printing on Nirmal Jeffrey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
+    <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
+    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/3d-printing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3D Printing</title>
+      <link>https://nirmaljeffrey.dev/projects/3d-printing-workbench/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/3d-printing-workbench/</guid>
+      <description>3D prints I make when I&amp;#39;m bored, for friends or for myself, using my Bambu Lab P1S.</description>
+    </item>
+    
+  </channel>
+</rss>

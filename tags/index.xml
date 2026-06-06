@@ -6,13 +6,114 @@
     <description>Recent content in Tags on Nirmal Jeffrey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
+    <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://nirmaljeffrey.dev/tags/ai/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/tags/ai/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Android</title>
       <link>https://nirmaljeffrey.dev/tags/android/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iOS</title>
+      <link>https://nirmaljeffrey.dev/tags/ios/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile App</title>
+      <link>https://nirmaljeffrey.dev/tags/mobile-app/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/tags/mobile-app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://nirmaljeffrey.dev/tags/software/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>https://nirmaljeffrey.dev/tags/community/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/tags/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Events</title>
+      <link>https://nirmaljeffrey.dev/tags/events/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/tags/events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Giving Back</title>
+      <link>https://nirmaljeffrey.dev/tags/giving-back/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/tags/giving-back/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kotlin</title>
+      <link>https://nirmaljeffrey.dev/tags/kotlin/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/tags/kotlin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D Printing</title>
+      <link>https://nirmaljeffrey.dev/tags/3d-printing/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/tags/3d-printing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware</title>
+      <link>https://nirmaljeffrey.dev/tags/hardware/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maker</title>
+      <link>https://nirmaljeffrey.dev/tags/maker/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/tags/maker/</guid>
       <description></description>
     </item>
     
@@ -20,7 +121,7 @@
       <title>Architecture</title>
       <link>https://nirmaljeffrey.dev/tags/architecture/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/architecture/</guid>
       <description></description>
     </item>
@@ -29,17 +130,8 @@
       <title>Hobby Project</title>
       <link>https://nirmaljeffrey.dev/tags/hobby-project/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/hobby-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kotlin</title>
-      <link>https://nirmaljeffrey.dev/tags/kotlin/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/tags/kotlin/</guid>
       <description></description>
     </item>
     
@@ -47,17 +139,8 @@
       <title>Library</title>
       <link>https://nirmaljeffrey.dev/tags/library/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/library/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software</title>
-      <link>https://nirmaljeffrey.dev/tags/software/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/tags/software/</guid>
       <description></description>
     </item>
     
@@ -65,7 +148,7 @@
       <title>Java</title>
       <link>https://nirmaljeffrey.dev/tags/java/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/java/</guid>
       <description></description>
     </item>
@@ -74,26 +157,8 @@
       <title>Design</title>
       <link>https://nirmaljeffrey.dev/tags/design/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hardware</title>
-      <link>https://nirmaljeffrey.dev/tags/hardware/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/tags/hardware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Maker</title>
-      <link>https://nirmaljeffrey.dev/tags/maker/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/tags/maker/</guid>
       <description></description>
     </item>
     
@@ -101,7 +166,7 @@
       <title>Papercraft</title>
       <link>https://nirmaljeffrey.dev/tags/papercraft/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/papercraft/</guid>
       <description></description>
     </item>
@@ -110,7 +175,7 @@
       <title>Rescue Systems</title>
       <link>https://nirmaljeffrey.dev/tags/rescue-systems/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/rescue-systems/</guid>
       <description></description>
     </item>
@@ -119,7 +184,7 @@
       <title>Robotics</title>
       <link>https://nirmaljeffrey.dev/tags/robotics/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/robotics/</guid>
       <description></description>
     </item>
@@ -128,7 +193,7 @@
       <title>Sports</title>
       <link>https://nirmaljeffrey.dev/tags/sports/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/sports/</guid>
       <description></description>
     </item>
@@ -137,7 +202,7 @@
       <title>Training Tools</title>
       <link>https://nirmaljeffrey.dev/tags/training-tools/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/training-tools/</guid>
       <description></description>
     </item>
@@ -146,7 +211,7 @@
       <title>DIY</title>
       <link>https://nirmaljeffrey.dev/tags/diy/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/diy/</guid>
       <description></description>
     </item>
@@ -155,7 +220,7 @@
       <title>Human Computer Interaction</title>
       <link>https://nirmaljeffrey.dev/tags/human-computer-interaction/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/human-computer-interaction/</guid>
       <description></description>
     </item>
@@ -164,7 +229,7 @@
       <title>Sensors</title>
       <link>https://nirmaljeffrey.dev/tags/sensors/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/sensors/</guid>
       <description></description>
     </item>
@@ -173,7 +238,7 @@
       <title>Simulation</title>
       <link>https://nirmaljeffrey.dev/tags/simulation/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/simulation/</guid>
       <description></description>
     </item>
@@ -182,7 +247,7 @@
       <title>Training</title>
       <link>https://nirmaljeffrey.dev/tags/training/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/training/</guid>
       <description></description>
     </item>
@@ -191,7 +256,7 @@
       <title>Electronics</title>
       <link>https://nirmaljeffrey.dev/tags/electronics/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/electronics/</guid>
       <description></description>
     </item>
@@ -200,7 +265,7 @@
       <title>Energy</title>
       <link>https://nirmaljeffrey.dev/tags/energy/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/energy/</guid>
       <description></description>
     </item>
@@ -209,7 +274,7 @@
       <title>Mechanical Design</title>
       <link>https://nirmaljeffrey.dev/tags/mechanical-design/</link>
       <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/mechanical-design/</guid>
       <description></description>
     </item>
@@ -218,7 +283,7 @@
       <title>Mechanical</title>
       <link>https://nirmaljeffrey.dev/tags/mechanical/</link>
       <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/mechanical/</guid>
       <description></description>
     </item>
@@ -227,7 +292,7 @@
       <title>Utility Build</title>
       <link>https://nirmaljeffrey.dev/tags/utility-build/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/utility-build/</guid>
       <description></description>
     </item>
@@ -236,7 +301,7 @@
       <title>Arduino</title>
       <link>https://nirmaljeffrey.dev/tags/arduino/</link>
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/arduino/</guid>
       <description></description>
     </item>
@@ -245,17 +310,8 @@
       <title>Aerodynamics</title>
       <link>https://nirmaljeffrey.dev/tags/aerodynamics/</link>
       <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/aerodynamics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Community</title>
-      <link>https://nirmaljeffrey.dev/tags/community/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/tags/community/</guid>
       <description></description>
     </item>
     
@@ -263,7 +319,7 @@
       <title>Coroutines</title>
       <link>https://nirmaljeffrey.dev/tags/coroutines/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/coroutines/</guid>
       <description></description>
     </item>
@@ -272,7 +328,7 @@
       <title>Dagger</title>
       <link>https://nirmaljeffrey.dev/tags/dagger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/dagger/</guid>
       <description></description>
     </item>
@@ -281,7 +337,7 @@
       <title>Dagger Hilt</title>
       <link>https://nirmaljeffrey.dev/tags/dagger-hilt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/dagger-hilt/</guid>
       <description></description>
     </item>
@@ -290,7 +346,7 @@
       <title>Entrepreneurship</title>
       <link>https://nirmaljeffrey.dev/tags/entrepreneurship/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/entrepreneurship/</guid>
       <description></description>
     </item>
@@ -299,7 +355,7 @@
       <title>Fab Lab</title>
       <link>https://nirmaljeffrey.dev/tags/fab-lab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/fab-lab/</guid>
       <description></description>
     </item>
@@ -308,7 +364,7 @@
       <title>Firebase Analytics</title>
       <link>https://nirmaljeffrey.dev/tags/firebase-analytics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/firebase-analytics/</guid>
       <description></description>
     </item>
@@ -317,7 +373,7 @@
       <title>Firebase Crashlytics</title>
       <link>https://nirmaljeffrey.dev/tags/firebase-crashlytics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/firebase-crashlytics/</guid>
       <description></description>
     </item>
@@ -326,7 +382,7 @@
       <title>Firebase Crashlytiscs</title>
       <link>https://nirmaljeffrey.dev/tags/firebase-crashlytiscs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/firebase-crashlytiscs/</guid>
       <description></description>
     </item>
@@ -335,7 +391,7 @@
       <title>Gradle</title>
       <link>https://nirmaljeffrey.dev/tags/gradle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/gradle/</guid>
       <description></description>
     </item>
@@ -344,7 +400,7 @@
       <title>Jetpack Compose</title>
       <link>https://nirmaljeffrey.dev/tags/jetpack-compose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/jetpack-compose/</guid>
       <description></description>
     </item>
@@ -353,7 +409,7 @@
       <title>JUnit</title>
       <link>https://nirmaljeffrey.dev/tags/junit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/junit/</guid>
       <description></description>
     </item>
@@ -362,7 +418,7 @@
       <title>mockito</title>
       <link>https://nirmaljeffrey.dev/tags/mockito/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/mockito/</guid>
       <description></description>
     </item>
@@ -371,7 +427,7 @@
       <title>Mockk</title>
       <link>https://nirmaljeffrey.dev/tags/mockk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/mockk/</guid>
       <description></description>
     </item>
@@ -380,7 +436,7 @@
       <title>Prototyping</title>
       <link>https://nirmaljeffrey.dev/tags/prototyping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/prototyping/</guid>
       <description></description>
     </item>
@@ -389,7 +445,7 @@
       <title>Sentry</title>
       <link>https://nirmaljeffrey.dev/tags/sentry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/sentry/</guid>
       <description></description>
     </item>
@@ -398,7 +454,7 @@
       <title>Software Engineering</title>
       <link>https://nirmaljeffrey.dev/tags/software-engineering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/software-engineering/</guid>
       <description></description>
     </item>
@@ -407,7 +463,7 @@
       <title>Unit Testing</title>
       <link>https://nirmaljeffrey.dev/tags/unit-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/unit-testing/</guid>
       <description></description>
     </item>

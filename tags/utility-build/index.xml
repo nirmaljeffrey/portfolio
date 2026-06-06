@@ -6,23 +6,25 @@
     <description>Recent content in Utility Build on Nirmal Jeffrey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
+    <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
     <lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/utility-build/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Portable Charger</title>
-      <link>https://nirmaljeffrey.dev/projects/portable-charger/</link>
-      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/projects/portable-charger/</guid>
-      <description>A practical DIY charger built from simple components for daily carry.</description>
-    </item>
-    
     <item>
       <title>Line Marker</title>
       <link>https://nirmaljeffrey.dev/projects/line-marker/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/line-marker/</guid>
       <description>Low-cost sports line marker used in college grounds.</description>
+    </item>
+    
+    <item>
+      <title>Portable Charger</title>
+      <link>https://nirmaljeffrey.dev/projects/portable-charger/</link>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/portable-charger/</guid>
+      <description>A practical DIY charger built from simple components for daily carry.</description>
     </item>
     
   </channel>

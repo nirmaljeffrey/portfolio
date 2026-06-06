@@ -6,12 +6,14 @@
     <description>Recent content in Architecture on Nirmal Jeffrey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
+    <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
     <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DroidBoot</title>
       <link>https://nirmaljeffrey.dev/projects/droidboot/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/droidboot/</guid>
       <description>Android Jetpack-oriented foundation for production-grade app architecture.</description>
     </item>
@@ -20,7 +22,7 @@
       <title>base-android</title>
       <link>https://nirmaljeffrey.dev/projects/base-android/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/base-android/</guid>
       <description>Reusable Android app base with common utilities, structure, and setup patterns.</description>
     </item>

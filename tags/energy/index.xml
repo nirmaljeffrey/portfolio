@@ -6,12 +6,14 @@
     <description>Recent content in Energy on Nirmal Jeffrey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
+    <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
     <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/energy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thermoelectric Flashlight</title>
       <link>https://nirmaljeffrey.dev/projects/thermoelectric-flashlight/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/thermoelectric-flashlight/</guid>
       <description>A flashlight concept powered by temperature difference using peltier effect.</description>
     </item>

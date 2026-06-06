@@ -6,12 +6,14 @@
     <description>Recent content in Java on Nirmal Jeffrey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
+    <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
     <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Software Development Engineer II</title>
       <link>https://nirmaljeffrey.dev/experience/kaleidofin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/kaleidofin/</guid>
       <description>Kaleidofin | Chennai, India</description>
     </item>
@@ -20,7 +22,7 @@
       <title>Software Engineer Trainee</title>
       <link>https://nirmaljeffrey.dev/experience/mountblue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/mountblue/</guid>
       <description>Mountblue Technologies | Bengaluru, India</description>
     </item>
@@ -29,7 +31,7 @@
       <title>Application Development Associate</title>
       <link>https://nirmaljeffrey.dev/experience/accenture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/experience/accenture/</guid>
       <description>Accenture | Chennai, India</description>
     </item>
@@ -38,7 +40,7 @@
       <title>FlickVibes</title>
       <link>https://nirmaljeffrey.dev/projects/flickvibes/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/flickvibes/</guid>
       <description>Mood-based Android movie recommendation app (removed from Google Play).</description>
     </item>
@@ -47,7 +49,7 @@
       <title>DroidBoot</title>
       <link>https://nirmaljeffrey.dev/projects/droidboot/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/droidboot/</guid>
       <description>Android Jetpack-oriented foundation for production-grade app architecture.</description>
     </item>

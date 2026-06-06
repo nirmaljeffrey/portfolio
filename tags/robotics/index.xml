@@ -6,12 +6,14 @@
     <description>Recent content in Robotics on Nirmal Jeffrey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
+    <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
     <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bluetooth Controlled Arduino Car</title>
       <link>https://nirmaljeffrey.dev/projects/bluetooth-controlled-arduino-car/</link>
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/bluetooth-controlled-arduino-car/</guid>
       <description>Android phone controlled bot using Arduino Uno, DC motors, and Bluetooth.</description>
     </item>
@@ -20,7 +22,7 @@
       <title>Air Boat</title>
       <link>https://nirmaljeffrey.dev/projects/air-boat/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/air-boat/</guid>
       <description>A low-cost wired RC air boat built from foam and coreless motors.</description>
     </item>
@@ -29,7 +31,7 @@
       <title>Multi-Modal Vehicle</title>
       <link>https://nirmaljeffrey.dev/projects/multi-modal-vehicle/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/multi-modal-vehicle/</guid>
       <description>An ambitious rescue concept that failed as a prototype across air, land, and water.</description>
     </item>

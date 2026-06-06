@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mobile App on Nirmal Jeffrey</title>
+    <link>https://nirmaljeffrey.dev/tags/mobile-app/</link>
+    <description>Recent content in Mobile App on Nirmal Jeffrey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
+    <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/mobile-app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pose Studio Waitlist</title>
+      <link>https://nirmaljeffrey.dev/projects/pose-studio-waitlist/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/pose-studio-waitlist/</guid>
+      <description>Waiting-list site for the iOS and Android Pose Studio app, an AI camera that gives real-time pose guidance.</description>
+    </item>
+    
+  </channel>
+</rss>

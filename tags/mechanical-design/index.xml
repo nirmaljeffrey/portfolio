@@ -6,12 +6,14 @@
     <description>Recent content in Mechanical Design on Nirmal Jeffrey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
+    <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
     <lastBuildDate>Mon, 01 Jun 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/mechanical-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Manual Scoreboard</title>
       <link>https://nirmaljeffrey.dev/projects/manual-scoreboard/</link>
       <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/manual-scoreboard/</guid>
       <description>A seven-segment style manual scoreboard built with wood and hinges.</description>
     </item>

@@ -6,12 +6,23 @@
     <description>Recent content in Software on Nirmal Jeffrey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
+    <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pose Studio Waitlist</title>
+      <link>https://nirmaljeffrey.dev/projects/pose-studio-waitlist/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/pose-studio-waitlist/</guid>
+      <description>Waiting-list site for the iOS and Android Pose Studio app, an AI camera that gives real-time pose guidance.</description>
+    </item>
+    
     <item>
       <title>FlickVibes</title>
       <link>https://nirmaljeffrey.dev/projects/flickvibes/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/flickvibes/</guid>
       <description>Mood-based Android movie recommendation app (removed from Google Play).</description>
     </item>
@@ -20,7 +31,7 @@
       <title>Android Permissions</title>
       <link>https://nirmaljeffrey.dev/projects/android-permissions/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/android-permissions/</guid>
       <description>Android runtime permissions library designed to simplify permission handling.</description>
     </item>
@@ -29,7 +40,7 @@
       <title>DroidBoot</title>
       <link>https://nirmaljeffrey.dev/projects/droidboot/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/droidboot/</guid>
       <description>Android Jetpack-oriented foundation for production-grade app architecture.</description>
     </item>
@@ -38,7 +49,7 @@
       <title>base-android</title>
       <link>https://nirmaljeffrey.dev/projects/base-android/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/base-android/</guid>
       <description>Reusable Android app base with common utilities, structure, and setup patterns.</description>
     </item>

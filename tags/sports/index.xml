@@ -6,41 +6,43 @@
     <description>Recent content in Sports on Nirmal Jeffrey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
+    <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
     <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/sports/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Line Marker</title>
-      <link>https://nirmaljeffrey.dev/projects/line-marker/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/projects/line-marker/</guid>
-      <description>Low-cost sports line marker used in college grounds.</description>
-    </item>
-    
-    <item>
-      <title>Manual Scoreboard</title>
-      <link>https://nirmaljeffrey.dev/projects/manual-scoreboard/</link>
-      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/projects/manual-scoreboard/</guid>
-      <description>A seven-segment style manual scoreboard built with wood and hinges.</description>
+      <title>Multiplayer Volleyball Spike Trainer</title>
+      <link>https://nirmaljeffrey.dev/projects/multiplayer-volleyball-spike-trainer/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/multiplayer-volleyball-spike-trainer/</guid>
+      <description>Volleyball training device to improve attack, block, and defense drills.</description>
     </item>
     
     <item>
       <title>Individual Volleyball Spike Trainer</title>
       <link>https://nirmaljeffrey.dev/projects/individual-volleyball-spike-trainer/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
-      
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/individual-volleyball-spike-trainer/</guid>
       <description>Solo spike training rig to practice volleyball attacking technique.</description>
     </item>
     
     <item>
-      <title>Multiplayer Volleyball Spike Trainer</title>
-      <link>https://nirmaljeffrey.dev/projects/multiplayer-volleyball-spike-trainer/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirmaljeffrey.dev/projects/multiplayer-volleyball-spike-trainer/</guid>
-      <description>Volleyball training device to improve attack, block, and defense drills.</description>
+      <title>Manual Scoreboard</title>
+      <link>https://nirmaljeffrey.dev/projects/manual-scoreboard/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/manual-scoreboard/</guid>
+      <description>A seven-segment style manual scoreboard built with wood and hinges.</description>
+    </item>
+    
+    <item>
+      <title>Line Marker</title>
+      <link>https://nirmaljeffrey.dev/projects/line-marker/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/line-marker/</guid>
+      <description>Low-cost sports line marker used in college grounds.</description>
     </item>
     
   </channel>
