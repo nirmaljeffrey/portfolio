@@ -1,5 +1,5 @@
 ---
-title: "Builder"
+title: "Managing Partner"
 description: "Vaazh Studios | Munich, Germany"
 dateString: 2026 - Present
 draft: false
