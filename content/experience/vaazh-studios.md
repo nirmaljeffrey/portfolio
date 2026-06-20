@@ -1,11 +1,11 @@
 ---
-title: "Founder"
+title: "Resident Code Goblin"
 description: "Vaazh Studios | Munich, Germany"
 dateString: 2026 - Present
 draft: false
 tags: ["Indie App Studio"]
 showToc: false
-weight: 301
+weight: 299
 ---
 
 ### Description
