@@ -1,5 +1,5 @@
 ---
-title: "Resident Code Goblin"
+title: "Builder"
 description: "Vaazh Studios | Munich, Germany"
 dateString: 2026 - Present
 draft: false
