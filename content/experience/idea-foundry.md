@@ -5,7 +5,7 @@ dateString: Aug 2018 - Jul 2019
 draft: false
 tags: ["Maker", "Fab Lab", "Community", "Prototyping", "Entrepreneurship"]
 showToc: false
-weight: 304
+weight: 305
 ---
 
 ### Description
