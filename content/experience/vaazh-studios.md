@@ -1,5 +1,5 @@
 ---
-title: "Managing Partner"
+title: "Takumi"
 description: "Vaazh Studios | Munich, Germany"
 dateString: 2026 - Present
 draft: false
