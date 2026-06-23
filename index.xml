@@ -8,7 +8,7 @@
     <language>en-us</language>
     <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
     <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
-    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Art For My Home</title>
       <link>https://nirmaljeffrey.dev/art/art-for-my-home/</link>
@@ -127,66 +127,12 @@
     </item>
     
     <item>
-      <title>Glider</title>
-      <link>https://nirmaljeffrey.dev/projects/glider/</link>
-      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
-      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
-      <guid>https://nirmaljeffrey.dev/projects/glider/</guid>
-      <description>Foam-board glider built to learn rudder, aileron, and flap behavior.</description>
-    </item>
-    
-    <item>
-      <title>Portable Charger</title>
-      <link>https://nirmaljeffrey.dev/projects/portable-charger/</link>
-      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
-      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
-      <guid>https://nirmaljeffrey.dev/projects/portable-charger/</guid>
-      <description>A practical DIY charger built from simple components for daily carry.</description>
-    </item>
-    
-    <item>
-      <title>Air Cooler</title>
-      <link>https://nirmaljeffrey.dev/projects/air-cooler/</link>
-      <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
-      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
-      <guid>https://nirmaljeffrey.dev/projects/air-cooler/</guid>
-      <description>A hostel-friendly cooling build made from household materials.</description>
-    </item>
-    
-    <item>
-      <title>Bluetooth Controlled Arduino Car</title>
-      <link>https://nirmaljeffrey.dev/projects/bluetooth-controlled-arduino-car/</link>
-      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
-      <guid>https://nirmaljeffrey.dev/projects/bluetooth-controlled-arduino-car/</guid>
-      <description>Android phone controlled bot using Arduino Uno, DC motors, and Bluetooth.</description>
-    </item>
-    
-    <item>
-      <title>Air Boat</title>
-      <link>https://nirmaljeffrey.dev/projects/air-boat/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
-      <guid>https://nirmaljeffrey.dev/projects/air-boat/</guid>
-      <description>A low-cost wired RC air boat built from foam and coreless motors.</description>
-    </item>
-    
-    <item>
       <title>Life Size Papercraft Ford GT</title>
       <link>https://nirmaljeffrey.dev/projects/life-size-papercraft-ford-gt/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/life-size-papercraft-ford-gt/</guid>
       <description>An original life-size DIY papercraft model inspired by the 2016 Ford GT.</description>
-    </item>
-    
-    <item>
-      <title>Multi-Modal Vehicle</title>
-      <link>https://nirmaljeffrey.dev/projects/multi-modal-vehicle/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
-      <guid>https://nirmaljeffrey.dev/projects/multi-modal-vehicle/</guid>
-      <description>An ambitious rescue concept that failed as a prototype across air, land, and water.</description>
     </item>
     
     <item>
@@ -313,6 +259,24 @@
       <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/3d-printing-workbench/</guid>
       <description>3D prints I make when I&amp;#39;m bored, for friends or for myself, using my Bambu Lab P1S.</description>
+    </item>
+    
+    <item>
+      <title>Rebuilding my corner of the internet</title>
+      <link>https://nirmaljeffrey.dev/blog/rebuilding-my-corner-of-the-internet/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/blog/rebuilding-my-corner-of-the-internet/</guid>
+      <description>Why I gave this site a redesign, and what I want to use it for from here on.</description>
+    </item>
+    
+    <item>
+      <title>What I&#39;m building right now</title>
+      <link>https://nirmaljeffrey.dev/blog/what-im-building-right-now/</link>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/blog/what-im-building-right-now/</guid>
+      <description>A quick snapshot of the projects on my bench this month — software, hardware, and one app heading for the App Store.</description>
     </item>
     
     

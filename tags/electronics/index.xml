@@ -18,14 +18,5 @@
       <description>A flashlight concept powered by temperature difference using peltier effect.</description>
     </item>
     
-    <item>
-      <title>Portable Charger</title>
-      <link>https://nirmaljeffrey.dev/projects/portable-charger/</link>
-      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
-      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
-      <guid>https://nirmaljeffrey.dev/projects/portable-charger/</guid>
-      <description>A practical DIY charger built from simple components for daily carry.</description>
-    </item>
-    
   </channel>
 </rss>

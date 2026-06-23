@@ -8,7 +8,7 @@
     <language>en-us</language>
     <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
     <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
-    <lastBuildDate>Thu, 01 Feb 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Life Size Papercraft Ford GT</title>
       <link>https://nirmaljeffrey.dev/projects/life-size-papercraft-ford-gt/</link>
@@ -16,6 +16,15 @@
       <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/projects/life-size-papercraft-ford-gt/</guid>
       <description>An original life-size DIY papercraft model inspired by the 2016 Ford GT.</description>
+    </item>
+    
+    <item>
+      <title>Rebuilding my corner of the internet</title>
+      <link>https://nirmaljeffrey.dev/blog/rebuilding-my-corner-of-the-internet/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/blog/rebuilding-my-corner-of-the-internet/</guid>
+      <description>Why I gave this site a redesign, and what I want to use it for from here on.</description>
     </item>
     
   </channel>

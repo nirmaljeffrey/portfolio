@@ -8,7 +8,43 @@
     <language>en-us</language>
     <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
     <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
-    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design</title>
+      <link>https://nirmaljeffrey.dev/tags/design/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta</title>
+      <link>https://nirmaljeffrey.dev/tags/meta/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/tags/meta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Now</title>
+      <link>https://nirmaljeffrey.dev/tags/now/</link>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/tags/now/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://nirmaljeffrey.dev/tags/projects/</link>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/tags/projects/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>AI</title>
       <link>https://nirmaljeffrey.dev/tags/ai/</link>
@@ -154,38 +190,11 @@
     </item>
     
     <item>
-      <title>Design</title>
-      <link>https://nirmaljeffrey.dev/tags/design/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
-      <guid>https://nirmaljeffrey.dev/tags/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Papercraft</title>
       <link>https://nirmaljeffrey.dev/tags/papercraft/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/papercraft/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rescue Systems</title>
-      <link>https://nirmaljeffrey.dev/tags/rescue-systems/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
-      <guid>https://nirmaljeffrey.dev/tags/rescue-systems/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Robotics</title>
-      <link>https://nirmaljeffrey.dev/tags/robotics/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
-      <guid>https://nirmaljeffrey.dev/tags/robotics/</guid>
       <description></description>
     </item>
     
@@ -204,15 +213,6 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/training-tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DIY</title>
-      <link>https://nirmaljeffrey.dev/tags/diy/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
-      <guid>https://nirmaljeffrey.dev/tags/diy/</guid>
       <description></description>
     </item>
     
@@ -280,38 +280,11 @@
     </item>
     
     <item>
-      <title>Mechanical</title>
-      <link>https://nirmaljeffrey.dev/tags/mechanical/</link>
-      <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
-      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
-      <guid>https://nirmaljeffrey.dev/tags/mechanical/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Utility Build</title>
       <link>https://nirmaljeffrey.dev/tags/utility-build/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
       <guid>https://nirmaljeffrey.dev/tags/utility-build/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Arduino</title>
-      <link>https://nirmaljeffrey.dev/tags/arduino/</link>
-      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
-      <guid>https://nirmaljeffrey.dev/tags/arduino/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aerodynamics</title>
-      <link>https://nirmaljeffrey.dev/tags/aerodynamics/</link>
-      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
-      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
-      <guid>https://nirmaljeffrey.dev/tags/aerodynamics/</guid>
       <description></description>
     </item>
     

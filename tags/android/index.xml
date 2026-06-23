@@ -10,15 +10,6 @@
     <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
     <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bluetooth Controlled Arduino Car</title>
-      <link>https://nirmaljeffrey.dev/projects/bluetooth-controlled-arduino-car/</link>
-      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
-      <guid>https://nirmaljeffrey.dev/projects/bluetooth-controlled-arduino-car/</guid>
-      <description>Android phone controlled bot using Arduino Uno, DC motors, and Bluetooth.</description>
-    </item>
-    
-    <item>
       <title>Pose Studio Waitlist</title>
       <link>https://nirmaljeffrey.dev/projects/pose-studio-waitlist/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
