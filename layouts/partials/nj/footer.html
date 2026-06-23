@@ -1,0 +1,24 @@
+<footer class="border-t border-zinc-200/70 dark:border-white/10">
+  <div class="mx-auto max-w-3xl px-5 py-12 sm:px-6">
+    <p class="max-w-md text-pretty text-[15px] leading-relaxed text-zinc-600 dark:text-zinc-300">
+      Building things in Munich — software, hardware, and the occasional painting. Say hi.
+    </p>
+    <div class="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm">
+      {{ range site.Params.socialIcons }}
+      <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="text-zinc-500 transition-colors hover:text-accent dark:text-zinc-400">{{ .name | title }}</a>
+      {{ end }}
+    </div>
+    <p class="mt-8 text-xs text-zinc-500 dark:text-zinc-500">© {{ now.Year }} {{ site.Title }}. Built with Hugo.</p>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var btn = document.getElementById("theme-toggle");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      var isDark = document.documentElement.classList.toggle("dark");
+      try { localStorage.setItem("pref-theme", isDark ? "dark" : "light"); } catch (e) {}
+    });
+  })();
+</script>

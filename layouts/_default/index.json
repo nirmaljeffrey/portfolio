@@ -1,0 +1,11 @@
+{{- $.Scratch.Add "index" slice -}}
+{{- range site.RegularPages -}}
+  {{- if and (not .Params.searchHidden) (ne .Layout "archives") (ne .Layout "search") }}
+    {{- $content := .Content | replaceRE "(?s)<style.*?</style>" "" | replaceRE "(?s)<script.*?</script>" "" | plainify | htmlUnescape -}}
+    {{- $content = $content | replaceRE "\\s+" " " | strings.TrimSpace -}}
+    {{- $summary := $content -}}
+    {{- if gt (len $content) 200 }}{{ $summary = printf "%s" (substr $content 0 200) }}{{ end -}}
+    {{- $.Scratch.Add "index" (dict "title" .Title "content" $content "permalink" .Permalink "summary" $summary) -}}
+  {{- end }}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

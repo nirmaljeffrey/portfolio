@@ -1,0 +1,29 @@
+{{ define "main" }}
+<article class="py-14 sm:py-20">
+  <a href="{{ "/blog/" | relURL }}" class="group mb-10 inline-flex items-center gap-1.5 text-sm text-zinc-500 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white">
+    <svg class="size-3.5 transition-transform group-hover:-translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M20 12H4m0 0 6-6m-6 6 6 6"/></svg>
+    Writing
+  </a>
+
+  <header class="mb-10 border-b border-zinc-200/70 pb-8 dark:border-white/10">
+    <div class="mb-4 flex flex-wrap items-center gap-2 font-mono text-xs text-zinc-400 dark:text-zinc-500">
+      <time>{{ .Date.Format "January 2, 2006" }}</time>
+      {{ if .ReadingTime }}<span>·</span><span>{{ .ReadingTime }} min read</span>{{ end }}
+      {{ range first 2 (.Params.tags | default slice) }}<span class="rounded-full border border-zinc-200 px-2 py-0.5 not-italic text-zinc-500 dark:border-white/10 dark:text-zinc-400">{{ . }}</span>{{ end }}
+    </div>
+    <h1 class="text-balance text-[clamp(2rem,5vw,2.8rem)] font-semibold leading-[1.1] tracking-tight">{{ .Title }}</h1>
+    {{ with .Description }}<p class="mt-4 text-pretty text-lg leading-relaxed text-zinc-600 dark:text-zinc-300">{{ . }}</p>{{ end }}
+  </header>
+
+  <div class="prose max-w-[68ch]">
+    {{ .Content }}
+  </div>
+
+  <footer class="mt-14 border-t border-zinc-200/70 pt-8 dark:border-white/10">
+    <a href="{{ "/blog/" | relURL }}" class="group inline-flex items-center gap-1.5 text-sm font-medium text-zinc-700 transition-colors hover:text-accent dark:text-zinc-200">
+      <svg class="size-3.5 transition-transform group-hover:-translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M20 12H4m0 0 6-6m-6 6 6 6"/></svg>
+      Back to all writing
+    </a>
+  </footer>
+</article>
+{{ end }}

@@ -1,0 +1,53 @@
+{{- $isHome := .IsHome -}}
+{{- $title := cond $isHome (printf "%s — Software, hardware &amp; art" site.Title) (printf "%s · %s" .Title site.Title) -}}
+{{- $desc := (.Description | default .Summary | default site.Params.profileMode.subtitle) | plainify | chomp -}}
+{{- $ogimg := resources.Get site.Params.profileMode.imageUrl -}}
+{{- $ogimgURL := site.Params.profileMode.imageUrl | absURL -}}
+{{- with $ogimg }}{{ $ogimgURL = (.Fill "320x320 Center").Permalink }}{{ end -}}
+{{- $twitter := "@NirmalJeffrey" -}}
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}" />
+<meta name="author" content="{{ site.Title }}" />
+<link rel="canonical" href="{{ .Permalink }}" />
+{{ if hugo.IsServer }}<meta name="robots" content="noindex, nofollow" />{{ else }}<meta name="robots" content="index, follow" />{{ end }}
+
+<meta property="og:title" content="{{ if $isHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+<meta property="og:description" content="{{ $desc }}" />
+<meta property="og:type" content="{{ if $isHome }}website{{ else }}article{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="{{ site.Title }}" />
+<meta property="og:image" content="{{ $ogimgURL }}" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="{{ $twitter }}" />
+<meta name="twitter:creator" content="{{ $twitter }}" />
+<meta name="twitter:image" content="{{ $ogimgURL }}" />
+
+{{ if $isHome }}
+{{- $sameAs := slice -}}
+{{- range site.Params.socialIcons }}{{ if ne .name "email" }}{{ $sameAs = $sameAs | append .url }}{{ end }}{{ end -}}
+<script type="application/ld+json">
+{{ dict "@context" "https://schema.org" "@type" "Person" "name" site.Title "url" site.BaseURL "image" $ogimgURL "jobTitle" "Software Engineer" "description" ($desc) "sameAs" $sameAs | jsonify | safeJS }}
+</script>
+{{ end }}
+
+<link rel="icon" href="{{ (printf "%s" site.Params.assets.favicon) | relURL }}" />
+<link rel="apple-touch-icon" href="{{ (printf "%s" site.Params.assets.apple_touch_icon) | relURL }}" />
+
+<link rel="preconnect" href="https://fonts.bunny.net" />
+<link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700" rel="stylesheet" />
+
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem("pref-theme");
+      if (t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+        document.documentElement.classList.add("dark");
+      }
+    } catch (e) {}
+  })();
+</script>
+
+<link rel="stylesheet" href="{{ "css/app.css" | relURL }}" />
+{{ partial "nj/analytics.html" . }}

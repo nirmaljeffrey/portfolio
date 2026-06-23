@@ -1,0 +1,45 @@
+{{ define "main" }}
+<section class="py-14 sm:py-20">
+  <header class="mb-8 max-w-xl">
+    <h1 class="text-balance text-[clamp(2rem,5vw,2.8rem)] font-semibold leading-[1.1] tracking-tight">{{ .Title }}</h1>
+    {{ with .Description }}<p class="mt-4 text-pretty text-base leading-relaxed text-zinc-600 dark:text-zinc-300">{{ . }}</p>{{ end }}
+  </header>
+
+  <!-- Category filters -->
+  {{ $cats := slice
+      (dict "name" "Hardware" "url" "/tags/hardware/" "desc" "Electronics, mechanics & playful prototypes")
+      (dict "name" "Software" "url" "/tags/software/" "desc" "Android apps, tools & libraries")
+      (dict "name" "Community" "url" "/tags/community/" "desc" "Meetups & giving back")
+      (dict "name" "3D Printing" "url" "/tags/3d-printing/" "desc" "Printer builds & functional prints") }}
+  <div class="mb-12 grid gap-3 sm:grid-cols-2">
+    {{ range $cats }}
+    <a href="{{ .url | relURL }}" class="group flex items-center justify-between gap-3 rounded-xl border border-zinc-200 bg-white px-4 py-3 transition-colors hover:border-accent dark:border-white/10 dark:bg-white/[0.02] dark:hover:border-accent">
+      <div class="min-w-0">
+        <p class="text-sm font-semibold tracking-tight group-hover:text-accent">{{ .name }}</p>
+        <p class="truncate text-xs text-zinc-500 dark:text-zinc-400">{{ .desc }}</p>
+      </div>
+      <svg class="size-4 shrink-0 text-zinc-300 transition group-hover:translate-x-0.5 group-hover:text-accent dark:text-zinc-600" aria-hidden="true" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 12h16m0 0-6-6m6 6-6 6"/></svg>
+    </a>
+    {{ end }}
+  </div>
+
+  <!-- All projects -->
+  <h2 class="mb-5 font-mono text-xs uppercase tracking-[0.18em] text-zinc-400 dark:text-zinc-500">All projects</h2>
+  {{ $projects := sort .RegularPages "Date" "desc" }}
+  <div class="grid gap-4 sm:grid-cols-2">
+    {{ range $projects }}
+    <a href="{{ .RelPermalink }}" class="group relative flex flex-col rounded-2xl bg-white p-5 shadow-sm ring-1 ring-zinc-950/5 transition-all hover:-translate-y-0.5 hover:shadow-md hover:ring-zinc-950/10 dark:bg-white/[0.02] dark:shadow-none dark:ring-white/10 dark:hover:bg-white/[0.04] dark:hover:ring-white/20">
+      <div class="mb-2 flex items-start justify-between gap-3">
+        <h3 class="text-base font-semibold leading-snug tracking-tight group-hover:text-accent">{{ .Title }}</h3>
+        <svg class="mt-1 size-4 shrink-0 text-zinc-300 transition-transform group-hover:translate-x-0.5 group-hover:text-accent dark:text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7m0 0H8m9 0v9"/></svg>
+      </div>
+      {{ with .Description | default .Summary }}<p class="line-clamp-2 text-base leading-relaxed text-zinc-600 sm:text-sm dark:text-zinc-400">{{ . }}</p>{{ end }}
+      <div class="mt-4 flex flex-wrap items-center gap-2.5 text-xs">
+        {{ with .Params.dateString }}<span class="font-mono text-zinc-500 dark:text-zinc-500">{{ . }}</span>{{ end }}
+        {{ with index (.Params.tags | default slice) 0 }}<span class="rounded-full px-2 py-0.5 text-xs font-medium text-zinc-600 ring-1 ring-zinc-950/10 dark:text-zinc-400 dark:ring-white/10">{{ . }}</span>{{ end }}
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

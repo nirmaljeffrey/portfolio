@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode | default "en" }}" class="scroll-smooth">
+<head>
+  {{ partial "nj/head.html" . }}
+</head>
+
+<body class="min-h-dvh bg-zinc-50 font-sans text-zinc-900 antialiased selection:bg-accent/20 selection:text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100 dark:selection:text-white">
+
+  <!-- Soft radial glow, dark mode only -->
+  <div aria-hidden="true" class="nj-glow pointer-events-none fixed inset-x-0 top-0 -z-10 hidden h-[420px] dark:block"></div>
+
+  {{ partial "nj/header.html" . }}
+
+  <main class="isolate mx-auto max-w-3xl px-5 sm:px-6">
+
+    {{ with site.Params.profileMode }}
+    <!-- ============ HERO ============ -->
+    <section class="flex flex-col-reverse items-start gap-8 pt-16 pb-12 sm:pt-24 md:flex-row md:items-center md:justify-between md:gap-12">
+      <div class="max-w-xl">
+        <p class="mb-4 inline-flex items-center gap-2 text-xs font-medium uppercase tracking-[0.18em] text-zinc-500 dark:text-zinc-400">
+          <span class="size-1.5 rounded-full bg-accent"></span> Munich, Germany
+        </p>
+        <h1 class="text-balance text-[clamp(2.4rem,6vw,3.6rem)] font-semibold leading-[1.05] tracking-tight">
+          I'm {{ index (split .title " ") 0 }}.<br class="hidden sm:block" /> I turn strange ideas into things.
+        </h1>
+        <p class="mt-5 max-w-md text-pretty text-base leading-relaxed text-zinc-600 dark:text-zinc-300">
+          {{ .subtitle | markdownify }}
+        </p>
+        <p class="mt-3 max-w-md text-pretty text-base leading-relaxed text-zinc-500 sm:text-sm dark:text-zinc-400">
+          Working across
+          <a href="{{ "/tags/software/" | relURL }}" class="font-medium text-zinc-800 underline decoration-accent/40 underline-offset-4 hover:decoration-accent dark:text-zinc-200">software</a>,
+          <a href="{{ "/tags/hardware/" | relURL }}" class="font-medium text-zinc-800 underline decoration-accent/40 underline-offset-4 hover:decoration-accent dark:text-zinc-200">hardware</a>, and
+          <a href="{{ "/art/" | relURL }}" class="font-medium text-zinc-800 underline decoration-accent/40 underline-offset-4 hover:decoration-accent dark:text-zinc-200">art</a>.
+        </p>
+
+        <div class="mt-8 flex flex-wrap items-center gap-3">
+          <a href="{{ "/projects/" | relURL }}" class="group inline-flex items-center gap-1.5 rounded-full bg-zinc-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-accent dark:bg-white dark:text-zinc-900 dark:hover:bg-accent dark:hover:text-white">
+            See the projects
+            <svg class="size-4 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 12h16m0 0-6-6m6 6-6 6"/></svg>
+          </a>
+          <a href="{{ "/blog/" | relURL }}" class="inline-flex items-center gap-1.5 rounded-full border border-zinc-300 px-5 py-2.5 text-sm font-medium text-zinc-700 transition-colors hover:border-zinc-400 hover:bg-zinc-100 dark:border-white/15 dark:text-zinc-200 dark:hover:border-white/30 dark:hover:bg-white/5">
+            Read the blog
+          </a>
+        </div>
+
+        <!-- social -->
+        <div class="mt-8 flex items-center gap-1">
+          {{ range site.Params.socialIcons }}
+          <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }}"
+             class="grid size-9 place-items-center rounded-lg text-zinc-400 transition-colors hover:bg-zinc-200/60 hover:text-zinc-900 dark:hover:bg-white/10 dark:hover:text-white">
+            {{ if eq .name "email" }}<svg class="size-[18px]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"><path stroke-linecap="round" stroke-linejoin="round" d="M2.5 6.5h19v11h-19z"/><path stroke-linecap="round" stroke-linejoin="round" d="m3 7 9 6 9-6"/></svg>
+            {{ else if eq .name "linkedin" }}<svg class="size-[18px]" fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5ZM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.4c0-1.3-.02-2.96-1.8-2.96-1.8 0-2.08 1.4-2.08 2.86V21H9z"/></svg>
+            {{ else if eq .name "github" }}<svg class="size-[18px]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.46-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.85.09-.66.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.94.68 1.9v2.82c0 .27.18.59.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+            {{ else if eq .name "youtube" }}<svg class="size-[18px]" fill="currentColor" viewBox="0 0 24 24"><path d="M23 7.5a3 3 0 0 0-2.1-2.13C19.06 5 12 5 12 5s-7.06 0-8.9.37A3 3 0 0 0 1 7.5C.63 9.35.63 12 .63 12s0 2.65.37 4.5a3 3 0 0 0 2.1 2.13C4.94 19 12 19 12 19s7.06 0 8.9-.37A3 3 0 0 0 23 16.5c.37-1.85.37-4.5.37-4.5s0-2.65-.37-4.5ZM9.75 15.25v-6.5L15.5 12z"/></svg>
+            {{ else if eq .name "x" }}<svg class="size-[18px]" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            {{ else }}<svg class="size-[18px]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/></svg>{{ end }}
+          </a>
+          {{ end }}
+        </div>
+      </div>
+
+      <!-- avatar -->
+      <div class="shrink-0">
+        <div class="relative">
+          <div class="absolute -inset-1 rounded-full bg-linear-to-tr from-accent/40 to-transparent opacity-0 blur transition-opacity duration-500 hover:opacity-100"></div>
+          {{ $avatar := resources.Get .imageUrl }}
+          {{ with $avatar }}{{ $avatar = .Fill "320x320 Center" }}{{ end }}
+          <img src="{{ with $avatar }}{{ .RelPermalink }}{{ else }}{{ $.Site.Params.profileMode.imageUrl | relURL }}{{ end }}" alt="{{ site.Title }}" width="160" height="160"
+               class="relative size-32 rounded-full object-cover sm:size-40 ring-1 ring-zinc-900/10 dark:ring-white/15" />
+        </div>
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- ============ NOW / RECENTLY ============ -->
+    {{ with site.Data.news }}
+    <section class="border-t border-zinc-200/70 py-10 dark:border-white/10">
+      <h2 class="mb-5 flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500 dark:text-zinc-400">
+        <span class="relative flex size-2">
+          <span class="absolute inline-flex size-full animate-ping rounded-full bg-accent/60"></span>
+          <span class="relative inline-flex size-2 rounded-full bg-accent"></span>
+        </span>
+        Now
+      </h2>
+      <ul role="list" class="flex flex-col gap-2.5">
+        {{ range . }}
+        <li class="flex gap-3 text-base leading-relaxed sm:text-sm">
+          <span class="w-20 shrink-0 pt-px font-mono text-xs text-zinc-400 dark:text-zinc-500">{{ .date }}</span>
+          <span class="text-zinc-600 [&_a]:font-medium [&_a]:text-zinc-900 [&_a]:underline [&_a]:decoration-accent/40 [&_a]:underline-offset-2 hover:[&_a]:decoration-accent dark:text-zinc-300 dark:[&_a]:text-zinc-100">
+            {{ if .star }}<span class="mr-1 text-accent">★</span>{{ end }}{{ .text | markdownify | replaceRE "</?p>" "" | safeHTML }}
+          </span>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    {{ end }}
+
+    <!-- ============ 01 · PROJECTS (builds only — excludes community events) ============ -->
+    {{ $builds := slice }}
+    {{ range (where site.RegularPages "Section" "projects") }}
+      {{ if not (in (.Params.tags | default slice) "Community") }}{{ $builds = $builds | append . }}{{ end }}
+    {{ end }}
+    {{ $projects := first 4 (sort $builds "Date" "desc") }}
+    {{ with $projects }}
+    <section class="border-t border-zinc-200/70 py-14 dark:border-white/10 sm:py-16">
+      <div class="mb-8 flex items-end justify-between gap-4">
+        <h2 class="flex items-baseline gap-3 text-xl font-semibold tracking-tight">
+          <span class="font-mono text-sm text-accent">01</span> Selected projects
+        </h2>
+        <a href="{{ "/projects/" | relURL }}" class="group inline-flex items-center gap-1 text-sm text-zinc-500 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white">
+          All projects <svg class="size-3.5 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 12h16m0 0-6-6m6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="grid gap-4 sm:grid-cols-2">
+        {{ range . }}
+        <a href="{{ .RelPermalink }}" class="group relative flex flex-col rounded-2xl bg-white p-5 shadow-sm ring-1 ring-zinc-950/5 transition-all hover:-translate-y-0.5 hover:shadow-md hover:ring-zinc-950/10 dark:bg-white/[0.02] dark:shadow-none dark:ring-white/10 dark:hover:bg-white/[0.04] dark:hover:ring-white/20">
+          <div class="mb-2 flex items-start justify-between gap-3">
+            <h3 class="text-base font-semibold leading-snug tracking-tight group-hover:text-accent">{{ .Title }}</h3>
+            <svg class="mt-1 size-4 shrink-0 text-zinc-300 transition-transform group-hover:translate-x-0.5 group-hover:text-accent dark:text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7m0 0H8m9 0v9"/></svg>
+          </div>
+          <p class="line-clamp-2 text-base leading-relaxed text-zinc-600 sm:text-sm dark:text-zinc-400">{{ .Params.description | default .Summary }}</p>
+          <div class="mt-4 flex items-center gap-2.5 text-xs">
+            {{ with .Params.dateString }}<span class="font-mono text-zinc-500 dark:text-zinc-500">{{ . }}</span>{{ end }}
+            {{ with index (.Params.tags | default slice) 0 }}<span class="rounded-full px-2 py-0.5 text-xs font-medium text-zinc-600 ring-1 ring-zinc-950/10 dark:text-zinc-400 dark:ring-white/10">{{ . }}</span>{{ end }}
+          </div>
+        </a>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- ============ 02 · WRITING ============ -->
+    {{ $posts := first 3 (where (where site.RegularPages "Section" "blog") "Draft" false) }}
+    {{ with $posts }}
+    <section class="border-t border-zinc-200/70 py-14 dark:border-white/10 sm:py-16">
+      <div class="mb-8 flex items-end justify-between gap-4">
+        <h2 class="flex items-baseline gap-3 text-xl font-semibold tracking-tight">
+          <span class="font-mono text-sm text-accent">02</span> Recent writing
+        </h2>
+        <a href="{{ "/blog/" | relURL }}" class="group inline-flex items-center gap-1 text-sm text-zinc-500 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white">
+          All posts <svg class="size-3.5 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 12h16m0 0-6-6m6 6-6 6"/></svg>
+        </a>
+      </div>
+      <ul role="list" class="flex flex-col">
+        {{ range . }}
+        <li class="border-b border-zinc-200/70 last:border-0 dark:border-white/10">
+          <a href="{{ .RelPermalink }}" class="group flex flex-col gap-1 py-4 transition-opacity">
+            <div class="flex items-baseline justify-between gap-4">
+              <h3 class="text-[15px] font-medium tracking-tight group-hover:text-accent">{{ .Title }}</h3>
+              <time class="shrink-0 whitespace-nowrap font-mono text-xs text-zinc-400 dark:text-zinc-500">{{ .Date.Format "Jan 2006" }}</time>
+            </div>
+            <p class="line-clamp-1 text-sm text-zinc-500 dark:text-zinc-400">{{ .Description | default .Summary }}</p>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    {{ end }}
+
+    <!-- ============ 03 · ART ============ -->
+    {{ $art := first 6 (where (where site.RegularPages "Section" "art") ".Params.cover.image" "!=" nil) }}
+    {{ with $art }}
+    <section class="border-t border-zinc-200/70 py-14 dark:border-white/10 sm:py-16">
+      <div class="mb-8 flex items-end justify-between gap-4">
+        <h2 class="flex items-baseline gap-3 text-xl font-semibold tracking-tight">
+          <span class="font-mono text-sm text-accent">03</span> From the sketchbook
+        </h2>
+        <a href="{{ "/art/" | relURL }}" class="group inline-flex items-center gap-1 text-sm text-zinc-500 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white">
+          All art <svg class="size-3.5 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 12h16m0 0-6-6m6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="grid grid-cols-2 gap-3 sm:grid-cols-3">
+        {{ range . }}
+        <a href="{{ .RelPermalink }}" class="group relative aspect-square overflow-hidden rounded-xl border border-zinc-200 bg-zinc-100 dark:border-white/10 dark:bg-white/[0.02]">
+          <img src="{{ .Params.cover.image | relURL }}" alt="{{ .Title }}" loading="lazy"
+               class="size-full object-cover transition-transform duration-500 group-hover:scale-105" />
+          <div class="absolute inset-0 flex items-end bg-linear-to-t from-black/70 via-black/0 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+            <span class="p-3 text-xs font-medium text-white">{{ .Title }}</span>
+          </div>
+        </a>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- ============ 04 · JOURNEY ============ -->
+    {{ $journey := first 4 (sort (where site.RegularPages "Section" "experience") "Weight") }}
+    {{ with $journey }}
+    <section class="border-t border-zinc-200/70 py-14 dark:border-white/10 sm:py-16">
+      <div class="mb-8 flex items-end justify-between gap-4">
+        <h2 class="flex items-baseline gap-3 text-xl font-semibold tracking-tight">
+          <span class="font-mono text-sm text-accent">04</span> The journey so far
+        </h2>
+        <a href="{{ "/experience/" | relURL }}" class="group inline-flex items-center gap-1 text-sm text-zinc-500 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white">
+          Full journey <svg class="size-3.5 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 12h16m0 0-6-6m6 6-6 6"/></svg>
+        </a>
+      </div>
+      <ul role="list" class="flex flex-col">
+        {{ range . }}
+        <li>
+          <a href="{{ .RelPermalink }}" class="group flex items-baseline justify-between gap-4 border-l-2 border-transparent py-3.5 pl-4 transition-colors hover:border-accent hover:bg-zinc-100/60 dark:hover:bg-white/[0.03]">
+            <div class="min-w-0">
+              <h3 class="truncate text-[15px] font-medium tracking-tight group-hover:text-accent">{{ .Title }}</h3>
+              <p class="truncate text-sm text-zinc-500 dark:text-zinc-400">{{ .Params.description }}</p>
+            </div>
+            {{ with .Params.dateString }}<span class="shrink-0 whitespace-nowrap font-mono text-xs text-zinc-400 dark:text-zinc-500">{{ . }}</span>{{ end }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    {{ end }}
+
+  </main>
+
+  {{ partial "nj/footer.html" . }}
+</body>
+</html>

@@ -1,0 +1,18 @@
+{{- /* Privacy-friendly analytics. Configure under params.analytics in config.yaml.
+       Only loads in production (never on `hugo server`). Renders nothing until set. */ -}}
+{{- if not hugo.IsServer -}}
+  {{- with site.Params.analytics -}}
+    {{- if eq .provider "plausible" -}}
+      <script defer data-domain="{{ .domain }}" src="https://plausible.io/js/script.js"></script>
+    {{- else if eq .provider "cloudflare" -}}
+      <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ .token }}"}'></script>
+    {{- else if eq .provider "goatcounter" -}}
+      <script data-goatcounter="https://{{ .code }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    {{- else if eq .provider "umami" -}}
+      <script defer src="{{ .src }}" data-website-id="{{ .id }}"></script>
+    {{- else if eq .provider "ga" -}}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ .id }}"></script>
+      <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ .id }}');</script>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

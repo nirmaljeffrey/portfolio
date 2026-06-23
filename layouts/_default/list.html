@@ -1,156 +1,31 @@
-{{- define "main" }}
-
-{{- if (and site.Params.profileMode.enabled .IsHome) }}
-{{- partial "index_profile.html" . }}
-{{- else }} {{/* if not profileMode */}}
-
-{{- if not .IsHome | and .Title }}
-<header class="page-header">
-  {{- partial "breadcrumbs.html" . }}
-  <h1>
-    {{ .Title }}
-    {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) (.Param "ShowRssButtonInSectionTermList") }}
-    <a href="index.xml" title="RSS" aria-label="RSS">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" height="23">
-        <path d="M4 11a9 9 0 0 1 9 9" />
-        <path d="M4 4a16 16 0 0 1 16 16" />
-        <circle cx="5" cy="19" r="1" />
-      </svg>
-    </a>
-    {{- end }}
-  </h1>
-  {{- if .Description }}
-  <div class="post-description">
-    {{ .Description | markdownify }}
-  </div>
-  {{- end }}
-</header>
-{{- end }}
-
-{{- if .Content }}
-<div class="post-content">
-  {{- if not (.Param "disableAnchoredHeadings") }}
-  {{- partial "anchored_headings.html" .Content -}}
-  {{- else }}{{ .Content }}{{ end }}
-</div>
-{{- end }}
-
-{{- $pages := union .RegularPages .Sections }}
-{{- $isProjectsLanding := and (eq .Kind "section") (eq .Section "projects") }}
-{{- $showEntries := not $isProjectsLanding }}
-{{- $term := .Data.Term }}
-{{- $termLower := lower (printf "%v" .Data.Term) }}
-{{- $isHardwareTagPage := and (eq .Kind "term") (eq .Data.Plural "tags") (eq $termLower "hardware") }}
-{{- $isProjectHubTagPage := and (eq .Kind "term") (eq .Data.Plural "tags") (or (eq $termLower "hardware") (eq $termLower "software") (eq $termLower "community") (eq $termLower "3d printing")) }}
-{{- $isInlineProjectHubTagPage := and (eq .Kind "term") (eq .Data.Plural "tags") (or (eq $termLower "community") (eq $termLower "3d printing")) }}
-
-{{- if .IsHome }}
-{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- end }}
-{{- if not $showEntries }}
-{{- $pages = slice }}
-{{- end }}
-{{- if $isProjectHubTagPage }}
-{{- $pages = where $pages "Type" "projects" }}
-{{- end }}
-{{- if $isHardwareTagPage }}
-{{- $pages = where $pages "Params.hideFromHardwareList" "ne" true }}
-{{- end }}
-
-{{- $pageSize := 10 }}
-{{- if $isHardwareTagPage }}{{ $pageSize = 7 }}{{ end }}
-{{- $paginator := .Paginate $pages $pageSize }}
-
-{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
-{{- partial "home_info.html" . }}
-{{- end }}
-
-{{- $isVisualSection := or (and (eq .Kind "section") (or (eq .Section "projects") (eq .Section "art"))) $isProjectHubTagPage }}
-{{- $visualSection := .Section }}
-{{- if $isProjectHubTagPage }}{{ $visualSection = "projects" }}{{ end }}
-{{- $isArtSection := and $isVisualSection (eq $visualSection "art") }}
-{{- if and $showEntries $isInlineProjectHubTagPage }}
-{{- range first 1 $pages }}
-<section class="inline-project-section">
-  {{- if ne $.Title .Title }}
-  <h2>{{ .Title }}</h2>
-  {{- end }}
-  {{- if .Description }}
-  <p class="inline-project-description">{{ .Description }}</p>
-  {{- end }}
-  {{- if not (.Param "hideMeta") }}
-  <div class="inline-project-meta">
-    {{- partial "post_meta.html" . -}}
-  </div>
-  {{- end }}
-  <div class="post-content inline-project-content">
-    {{- .Content -}}
-  </div>
-</section>
-{{- end }}
-{{- else }}
-{{- if and $showEntries $isVisualSection }}
-  {{- $galleryClass := printf "section-gallery-grid section-gallery-grid-%s" $visualSection -}}
-  <div class="{{ $galleryClass }}">
-{{- end }}
-{{- if $showEntries }}
-{{- range $index, $page := $paginator.Pages }}
-
-{{- $class := "post-entry" }}
-{{- if $isVisualSection }}
-{{- $class = "post-entry gallery-entry" }}
-{{- else }}
-  {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
-  {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
-  {{- $class = "first-entry" }}
-  {{- else if $term }}
-  {{- $class = "post-entry tag-entry" }}
-  {{- end }}
-{{- end }}
-
-<article class="{{ $class }}{{ if $isArtSection }} art-image-entry{{ end }}">
-  {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
-  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
-  {{- if not $isArtSection }}
-  <header class="entry-header">
-    <h2>
-      {{- .Title }}
-      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
-    </h2>
+{{ define "main" }}
+<section class="py-14 sm:py-20">
+  <header class="mb-10 max-w-xl">
+    {{ if eq .Kind "term" }}<p class="mb-2 font-mono text-xs uppercase tracking-[0.18em] text-accent">{{ .Data.Singular | default .Type | humanize }}</p>{{ end }}
+    <h1 class="text-balance text-[clamp(2rem,5vw,2.8rem)] font-semibold leading-[1.1] tracking-tight">{{ .Title }}</h1>
+    {{ with .Description }}<p class="mt-4 text-pretty text-base leading-relaxed text-zinc-600 dark:text-zinc-300">{{ . | markdownify }}</p>{{ end }}
   </header>
-  <!-- Added a custom param hideDescriptionInList  -->
-  {{- if (ne (.Param "hideDescriptionInList") true) }}
-  <div class="entry-content">
-    <p>{{ .Description }}</p>
+
+  {{ $pages := .Pages }}
+  {{ if $pages }}
+  <div class="grid gap-4 sm:grid-cols-2">
+    {{ range $pages }}
+    <a href="{{ .RelPermalink }}" class="group relative flex flex-col rounded-2xl bg-white p-5 shadow-sm ring-1 ring-zinc-950/5 transition-all hover:-translate-y-0.5 hover:shadow-md hover:ring-zinc-950/10 dark:bg-white/[0.02] dark:shadow-none dark:ring-white/10 dark:hover:bg-white/[0.04] dark:hover:ring-white/20">
+      <div class="mb-2 flex items-start justify-between gap-3">
+        <h3 class="text-base font-semibold leading-snug tracking-tight group-hover:text-accent">{{ .Title }}</h3>
+        <svg class="mt-1 size-4 shrink-0 text-zinc-300 transition group-hover:translate-x-0.5 group-hover:text-accent dark:text-zinc-600" aria-hidden="true" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7m0 0H8m9 0v9"/></svg>
+      </div>
+      {{ with .Description | default .Summary }}<p class="line-clamp-2 text-base leading-relaxed text-zinc-600 sm:text-sm dark:text-zinc-400">{{ . }}</p>{{ end }}
+      <div class="mt-4 flex items-center gap-2.5 text-xs">
+        {{ with .Params.dateString }}<span class="font-mono text-zinc-500 dark:text-zinc-500">{{ . }}</span>
+        {{ else }}{{ if not .Date.IsZero }}<span class="font-mono text-zinc-500 dark:text-zinc-500">{{ .Date.Format "Jan 2006" }}</span>{{ end }}{{ end }}
+        {{ with .Section }}<span class="rounded-full px-2 py-0.5 text-xs font-medium text-zinc-500 ring-1 ring-zinc-950/10 dark:text-zinc-400 dark:ring-white/10">{{ . | humanize | title }}</span>{{ end }}
+      </div>
+    </a>
+    {{ end }}
   </div>
-  {{- end }}
-  {{- if not (.Param "hideMeta") }}
-  <footer class="entry-footer">
-    {{- partial "post_meta.html" . -}}
-  </footer>
-  {{- end }}
-  {{- end }}
-  <a class="entry-link" aria-label="{{ if $isArtSection }}open artwork{{ else }}post link to {{ .Title | plainify }}{{ end }}" href="{{ .Permalink }}"></a>
-</article>
-{{- end }}
-{{- if $isVisualSection }}</div>{{- end }}
-{{- end }}
-{{- end }}
-
-{{- if and (not $isInlineProjectHubTagPage) $showEntries (gt $paginator.TotalPages 1) }}
-<footer class="page-footer">
-  <nav class="pagination">
-    {{- if $paginator.HasPrev }}
-    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
-    {{- end }}
-    {{- if $paginator.HasNext }}
-    <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
-    {{- end }}
-  </nav>
-</footer>
-{{- end }}
-
-{{- end }}{{/* end profileMode */}}
-
-{{- end }}{{- /* end main */ -}}
+  {{ else }}
+  <p class="text-zinc-500 dark:text-zinc-400">Nothing here yet.</p>
+  {{ end }}
+</section>
+{{ end }}

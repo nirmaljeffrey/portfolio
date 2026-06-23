@@ -1,0 +1,17 @@
+{{ define "main" }}
+<section class="py-14 sm:py-20">
+  <header class="mb-10 max-w-xl">
+    <h1 class="text-balance text-[clamp(2rem,5vw,2.8rem)] font-semibold leading-[1.1] tracking-tight">{{ .Title }}</h1>
+    {{ with .Description }}<p class="mt-4 text-pretty text-base leading-relaxed text-zinc-600 dark:text-zinc-300">{{ . }}</p>{{ end }}
+  </header>
+
+  <div class="flex flex-wrap gap-2.5">
+    {{ range $name, $taxonomy := .Data.Terms.Alphabetical }}
+    <a href="{{ .Page.RelPermalink }}" class="group inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-white px-3.5 py-1.5 text-sm transition-colors hover:border-accent hover:text-accent dark:border-white/10 dark:bg-white/[0.02] dark:hover:border-accent">
+      {{ .Page.Title }}
+      <span class="rounded-full bg-zinc-100 px-1.5 text-xs font-medium text-zinc-500 group-hover:bg-accent/10 dark:bg-white/10 dark:text-zinc-400">{{ .Count }}</span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

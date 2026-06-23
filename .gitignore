@@ -1,0 +1,14 @@
+# Dependencies
+/node_modules/
+
+# Hugo build output & caches (regenerated from source by CI on deploy)
+/public/
+/resources/
+.hugo_build.lock
+
+# Editor / tooling
+/.claude/
+/.idea/
+
+# OS
+.DS_Store

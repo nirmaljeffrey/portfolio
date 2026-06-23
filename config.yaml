@@ -13,6 +13,10 @@ menu:
       name: Projects
       url: /projects
       weight: 30
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 33
     - identifier: art
       name: Art
       url: /art
@@ -78,8 +82,15 @@ params:
       url: "https://www.linkedin.com/in/nirmal-jeffrey"
     - name: "github"
       url: "https://github.com/nirmaljeffrey"
+    - name: "x"
+      url: "https://x.com/NirmalJeffrey"
     - name: "youtube"
       url: "https://www.youtube.com/@nirmaljeffrey5263"
+
+  # Analytics — cookieless, no GDPR consent banner needed. Loads in production only.
+  analytics:
+    provider: "goatcounter"
+    code: "nirmaljeffrey"
 
   # text search
   fuseOpts:
