@@ -11,7 +11,7 @@
 <meta name="description" content="{{ $desc }}" />
 <meta name="author" content="{{ site.Title }}" />
 <link rel="canonical" href="{{ .Permalink }}" />
-{{ if hugo.IsServer }}<meta name="robots" content="noindex, nofollow" />{{ else }}<meta name="robots" content="index, follow" />{{ end }}
+{{ if eq hugo.Environment "production" }}<meta name="robots" content="index, follow" />{{ else }}<meta name="robots" content="noindex, nofollow" />{{ end }}
 
 <meta property="og:title" content="{{ if $isHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}" />
 <meta property="og:description" content="{{ $desc }}" />

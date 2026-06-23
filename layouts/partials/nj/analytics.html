@@ -1,6 +1,6 @@
 {{- /* Privacy-friendly analytics. Configure under params.analytics in config.yaml.
        Only loads in production (never on `hugo server`). Renders nothing until set. */ -}}
-{{- if not hugo.IsServer -}}
+{{- if eq hugo.Environment "production" -}}
   {{- with site.Params.analytics -}}
     {{- if eq .provider "plausible" -}}
       <script defer data-domain="{{ .domain }}" src="https://plausible.io/js/script.js"></script>
