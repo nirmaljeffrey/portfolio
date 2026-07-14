@@ -8,14 +8,23 @@
     <language>en-us</language>
     <managingEditor>jeffattry@gmail.com (Nirmal Jeffrey)</managingEditor>
     <webMaster>jeffattry@gmail.com (Nirmal Jeffrey)</webMaster>
-    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nirmaljeffrey.dev/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pose Studio Waitlist</title>
-      <link>https://nirmaljeffrey.dev/projects/pose-studio-waitlist/</link>
+      <title>SnapLingo</title>
+      <link>https://nirmaljeffrey.dev/projects/snaplingo/</link>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
+      <guid>https://nirmaljeffrey.dev/projects/snaplingo/</guid>
+      <description>A camera-first vocabulary app for iOS and Android — snap any object and learn the word in 25&#43; languages, with pronunciation, examples, and mini-games.</description>
+    </item>
+    
+    <item>
+      <title>Pose Studio</title>
+      <link>https://nirmaljeffrey.dev/projects/pose-studio/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       <author>jeffattry@gmail.com (Nirmal Jeffrey)</author>
-      <guid>https://nirmaljeffrey.dev/projects/pose-studio-waitlist/</guid>
-      <description>Waiting-list site for the iOS and Android Pose Studio app, an AI camera that gives real-time pose guidance.</description>
+      <guid>https://nirmaljeffrey.dev/projects/pose-studio/</guid>
+      <description>A live AI camera app for iOS and Android that coaches your pose in real time so your next photo looks natural.</description>
     </item>
     
     <item>
