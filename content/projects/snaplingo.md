@@ -9,9 +9,9 @@ showToc: false
 weight: 300
 ---
 
-SnapLingo is a camera-first language-learning app I'm building for iOS and Android. Point your phone at anything — a mug, a plant, your dog — snap it, and instantly learn the word in your target language, complete with pronunciation, an example sentence, and mini-games built from the words you capture.
+**[SnapLingo](https://snaplingoapp.com/)** is a camera-first language-learning app I'm building for iOS and Android. Point your phone at anything — a mug, a plant, your dog — snap it, and instantly learn the word in your target language, complete with pronunciation, an example sentence, and mini-games built from the words you capture.
 
-- Site: [snaplingoapp.com](https://snaplingoapp.com/)
+- Site: [SnapLingo — snaplingoapp.com](https://snaplingoapp.com/)
 - Status: In development · test program open
 - Platforms: iOS and Android
 - Learn in **25+ languages**, from Spanish and Japanese to Hindi and Arabic
