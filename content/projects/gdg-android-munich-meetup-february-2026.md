@@ -1,14 +1,15 @@
 ---
-title: "GDG Android Munich Meetup in April 2026"
+title: "GDG Android Munich Meetup in February 2026"
 description: "An Android community meetup where I played a key role in helping AutoScout24 host the local Android community."
-date: 2026-04-01
-dateString: "April 2026 | AutoScout24 Munich"
+date: 2026-02-01
+dateString: "February 2026 | AutoScout24 Munich"
 draft: false
 tags: ["Community", "Events", "Android", "Kotlin", "Giving Back"]
 showToc: false
 weight: 401
 aliases:
   - /projects/gdg-android-munich-meetups/
+  - /projects/gdg-android-munich-meetup-april-2026/
 ---
 
 I played a key role in helping my employer, AutoScout24, host this GDG Android Munich meetup for Android developers, Kotlin engineers, and people exploring mobile development.
