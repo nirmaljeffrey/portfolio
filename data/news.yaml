@@ -1,10 +1,10 @@
 # Edit this list to update the "Now" feed on the home page.
 # Newest first. `text` accepts markdown (links allowed). `star: true` highlights an item.
-- date: "Jun 2026"
+- date: "Jul 2026"
   star: true
-  text: "Opened the [Pose Studio](/projects/pose-studio-waitlist) waitlist — my first app under Vaazh Studios."
-- date: "Apr 2026"
-  text: "Helped host the [GDG Android Munich meetup](/projects/gdg-android-munich-meetup-april-2026)."
+  text: "Launched [Pose Studio](/projects/pose-studio) — my first app under Vaazh Studios."
+- date: "Feb 2026"
+  text: "Helped host the [GDG Android Munich meetup](/projects/gdg-android-munich-meetup-february-2026)."
 - date: "2026"
   text: "Started [Vaazh Studios](/experience/vaazh-studios), a small indie app studio on the side."
 - date: "Sep 2024"
