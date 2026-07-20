@@ -17,4 +17,4 @@ aliases:
 - Status: **Live** on iOS and Android
 - Platforms: iOS and Android
 
-Built with **Kotlin Multiplatform** and **Compose Multiplatform** — one shared codebase across both platforms — with a Firebase + AI backend. It's the app the SnapLingo codebase later grew out of.
+Built with **Kotlin Multiplatform** and **Compose Multiplatform** — one shared codebase across both platforms — with a Firebase + AI backend. It's the app the Snavo codebase later grew out of.

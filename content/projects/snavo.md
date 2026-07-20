@@ -1,5 +1,5 @@
 ---
-title: "SnapLingo"
+title: "Snavo"
 description: "A camera-first vocabulary app for iOS and Android — snap any object and learn the word in 25+ languages, with pronunciation, examples, and mini-games."
 date: 2026-07-14
 dateString: "In progress | iOS & Android · test program open"
@@ -7,11 +7,12 @@ draft: false
 tags: ["Software", "Mobile App", "Android", "iOS", "AI", "Kotlin Multiplatform"]
 showToc: false
 weight: 300
+aliases: ["/projects/snaplingo/"]
 ---
 
-**[SnapLingo](https://snaplingoapp.com/)** is a camera-first language-learning app I'm building for iOS and Android. Point your phone at anything — a mug, a plant, your dog — snap it, and instantly learn the word in your target language, complete with pronunciation, an example sentence, and mini-games built from the words you capture.
+**[Snavo](https://snavoapp.com/)** is a camera-first language-learning app I'm building for iOS and Android. Point your phone at anything — a mug, a plant, your dog — snap it, and instantly learn the word in your target language, complete with pronunciation, an example sentence, and mini-games built from the words you capture.
 
-- Site: [SnapLingo — snaplingoapp.com](https://snaplingoapp.com/)
+- Site: [Snavo — snavoapp.com](https://snavoapp.com/)
 - Status: In development · test program open
 - Platforms: iOS and Android
 - Learn in **25+ languages**, from Spanish and Japanese to Hindi and Arabic
