@@ -13,6 +13,7 @@ aliases: ["/projects/snaplingo/", "/projects/snavo/"]
 **[Vocabloot](https://vocabloot.com/)** is a camera-first language-learning app I'm building for iOS and Android. Point your phone at anything — a mug, a plant, your dog — snap it, and instantly learn the word in your target language, complete with pronunciation, an example sentence, and mini-games built from the words you capture.
 
 - Site: [Vocabloot — vocabloot.com](https://vocabloot.com/)
+- Free guides: [beginner vocabulary with pronunciation](https://vocabloot.com/learn/) — numbers, greetings, colours, days of the week and more, free to read with no signup
 - Status: In development · test program open
 - Platforms: iOS and Android
 - Learn in **25+ languages**, from Spanish and Japanese to Hindi and Arabic
