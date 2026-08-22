@@ -7,6 +7,7 @@ draft: false
 tags: ["Software", "Mobile App", "Android", "iOS", "AI", "Kotlin Multiplatform"]
 showToc: false
 weight: 301
+siteURL: "https://posestudioapp.com/"
 aliases:
   - /projects/pose-studio-waitlist/
 ---

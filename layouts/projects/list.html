@@ -28,17 +28,25 @@
   {{ $projects := sort .RegularPages "Date" "desc" }}
   <div class="grid gap-4 sm:grid-cols-2">
     {{ range $projects }}
-    <a href="{{ .RelPermalink }}" class="group relative flex flex-col rounded-2xl bg-white p-5 shadow-sm ring-1 ring-zinc-950/5 transition-all hover:-translate-y-0.5 hover:shadow-md hover:ring-zinc-950/10 dark:bg-white/[0.02] dark:shadow-none dark:ring-white/10 dark:hover:bg-white/[0.04] dark:hover:ring-white/20">
+    {{/* Card body is a div, not an anchor: the title carries a stretched link so
+         the whole card stays clickable while the live-site link below can be a
+         real, separate outbound anchor (nested <a> is invalid HTML). */}}
+    <div class="group relative flex flex-col rounded-2xl bg-white p-5 shadow-sm ring-1 ring-zinc-950/5 transition-all hover:-translate-y-0.5 hover:shadow-md hover:ring-zinc-950/10 dark:bg-white/[0.02] dark:shadow-none dark:ring-white/10 dark:hover:bg-white/[0.04] dark:hover:ring-white/20">
       <div class="mb-2 flex items-start justify-between gap-3">
-        <h3 class="text-base font-semibold leading-snug tracking-tight group-hover:text-accent">{{ .Title }}</h3>
+        <h3 class="text-base font-semibold leading-snug tracking-tight group-hover:text-accent">
+          <a href="{{ .RelPermalink }}" class="after:absolute after:inset-0 after:rounded-2xl after:content-['']">{{ .Title }}</a>
+        </h3>
         <svg class="mt-1 size-4 shrink-0 text-zinc-300 transition-transform group-hover:translate-x-0.5 group-hover:text-accent dark:text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7m0 0H8m9 0v9"/></svg>
       </div>
       {{ with .Description | default .Summary }}<p class="line-clamp-2 text-base leading-relaxed text-zinc-600 sm:text-sm dark:text-zinc-400">{{ . }}</p>{{ end }}
       <div class="mt-4 flex flex-wrap items-center gap-2.5 text-xs">
         {{ with .Params.dateString }}<span class="font-mono text-zinc-500 dark:text-zinc-500">{{ . }}</span>{{ end }}
         {{ with index (.Params.tags | default slice) 0 }}<span class="rounded-full px-2 py-0.5 text-xs font-medium text-zinc-600 ring-1 ring-zinc-950/10 dark:text-zinc-400 dark:ring-white/10">{{ . }}</span>{{ end }}
+        {{ with .Params.siteURL }}
+        <a href="{{ . }}" class="relative z-10 font-mono text-zinc-500 underline decoration-accent/40 underline-offset-2 transition-colors hover:text-accent hover:decoration-accent dark:text-zinc-500 dark:hover:text-accent">{{ . | replaceRE "^https?://" "" | strings.TrimSuffix "/" }} &#8599;</a>
+        {{ end }}
       </div>
-    </a>
+    </div>
     {{ end }}
   </div>
 </section>

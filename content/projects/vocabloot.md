@@ -7,6 +7,7 @@ draft: false
 tags: ["Software", "Mobile App", "Android", "iOS", "AI", "Kotlin Multiplatform"]
 showToc: false
 weight: 300
+siteURL: "https://vocabloot.com/"
 aliases: ["/projects/snaplingo/", "/projects/snavo/"]
 ---
 
