@@ -17,7 +17,7 @@ aliases: ["/projects/snaplingo/", "/projects/snavo/"]
 - Free guides: [beginner vocabulary with pronunciation](https://vocabloot.com/learn/) — numbers, greetings, colours, days of the week and more, free to read with no signup
 - Status: In development · test program open
 - Platforms: iOS and Android
-- Learn in **10 languages**, from Spanish and Japanese to Hindi and Arabic
+- Learn in **10 languages**
 - Every word comes from something you actually photographed, so it sticks longer than a flashcard deck
 
 Under the hood it's **Kotlin Multiplatform** and **Compose Multiplatform** — one shared codebase across iOS and Android — with a Firebase + AI backend that recognises the object in your photo and generates the vocabulary. The marketing and test-signup site is a neubrutalist landing page built to match the app's own design system.
