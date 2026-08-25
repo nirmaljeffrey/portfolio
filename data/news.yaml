@@ -2,7 +2,7 @@
 # Newest first. `text` accepts markdown (links allowed). `star: true` highlights an item.
 - date: "Jul 2026"
   star: true
-  text: "Opened the [Vocabloot](https://vocabloot.com/) test program: snap a photo, learn the word in 25+ languages. [Project page](/projects/vocabloot)."
+  text: "Opened the [Vocabloot](https://vocabloot.com/) test program: snap a photo, learn the word in 10 languages. [Project page](/projects/vocabloot)."
 - date: "Jul 2026"
   star: true
   text: "Launched [Pose Studio](https://posestudioapp.com/), my first app under Vaazh Studios. [Project page](/projects/pose-studio)."

@@ -1,6 +1,6 @@
 ---
 title: "Vocabloot"
-description: "A camera-first vocabulary app for iOS and Android — snap any object and learn the word in 25+ languages, with pronunciation, examples, and mini-games."
+description: "A camera-first vocabulary app for iOS and Android — snap any object and learn the word in 10 languages, with pronunciation, examples, and mini-games."
 date: 2026-07-14
 dateString: "In progress | iOS & Android · test program open"
 draft: false
@@ -17,7 +17,7 @@ aliases: ["/projects/snaplingo/", "/projects/snavo/"]
 - Free guides: [beginner vocabulary with pronunciation](https://vocabloot.com/learn/) — numbers, greetings, colours, days of the week and more, free to read with no signup
 - Status: In development · test program open
 - Platforms: iOS and Android
-- Learn in **25+ languages**, from Spanish and Japanese to Hindi and Arabic
+- Learn in **10 languages**, from Spanish and Japanese to Hindi and Arabic
 - Every word comes from something you actually photographed, so it sticks longer than a flashcard deck
 
 Under the hood it's **Kotlin Multiplatform** and **Compose Multiplatform** — one shared codebase across iOS and Android — with a Firebase + AI backend that recognises the object in your photo and generates the vocabulary. The marketing and test-signup site is a neubrutalist landing page built to match the app's own design system.
